@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<article class="character">
+  <header class="character-header">
+    {% if page.image %}
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.name }}"
+      >
+    {% endif %}
+
+    <h1>{{ page.name }}</h1>
+  </header>
+
+    <section>
+        <p><strong>Gender:</strong> {{ page.gender }} <strong>Pronouns:</strong> {{ page.pronouns }} </p>
+    </section>
+
+      {% if page.profession %}
+        <p><strong>Profession:</strong> {{ page.profession }}</p>
+      {% endif %}
+
+      {% if page.affiliation %}
+        <p><strong>Affiliation:</strong> {{ page.affiliation }}</p>
+      {% endif %}
+
+      
+  
+  {% if page.affiliations %}
+    <p>{{ page.affiliations }}</p>
+  {% endif %}
+
+
+  {% if page.about %}
+    <section>
+      <h2>About</h2>
+      {{ page.about | markdownify }}
+    </section>
+  {% endif %}
+
+
+  {% if page.skills %}
+    <section>
+      <h2>Skills</h2>
+
+      {% for skill in page.skills %}
+        <article>
+          <h3>{{ skill.name }} [ {{ skill.value }} ]</h3>
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+
+  {% if page.relationships %}
+    <section>
+      <h2>Relationships</h2>
+
+      {% for relationship in page.relationships %}
+        <article>
+          <img
+          src="{{ relationship.image | relative_url }}"
+          alt="{{ relationship.name }}"
+          >
+          <h3>{{ relationship.name }}</h3>
+          <p>{{ relationship.type }}</p>
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+</article>
