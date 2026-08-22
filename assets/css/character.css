@@ -1,0 +1,97 @@
+.character-box {
+  display: grid;
+  grid-template-columns: minmax(200px, 320px) 1fr;
+  gap: 2rem;
+  align-items: start;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.character-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.character-info h1 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.character-detail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 0.5rem;
+  margin: 0;
+}
+
+.character-detail dt {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.character-detail dd {
+  margin: 0.25rem 0 0;
+}
+
+@media only screen and (max-width: 780px) {
+  .character-box {
+    grid-template-columns: 180px 1fr;
+    gap: 1.25rem;
+  }
+
+  .character-portrait{
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .character-box {
+    grid-template-columns: 1fr;
+  }
+
+  .character-portrait {
+    max-width: 280px;
+  }
+
+  .character-info {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+.skill-box {
+  display: grid;
+  grid-template-columns: minmax(200px, 320px) 1fr;
+  gap: 2rem;
+  align-items: start;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.skill-field{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 0.5rem;
+  margin: 0;
+}
+
+@media only screen and (max-width: 780px) {
+  .skill-box {
+    grid-template-columns: 240px 1fr;
+    gap: 1.25rem;
+    
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skill-box {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-field {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
