@@ -2,7 +2,7 @@
 layout: character
 name: Elene Sauvegeau
 gender: Female
-pronouns: 
+pronouns: She/Her
 profession: Tax Office Incumbent
 affiliation: Stardoods Consortium, The Ninth Silence
 

@@ -2,73 +2,113 @@
 layout: default
 ---
 
-<article class="character">
-  <header class="character-header">
+  <style>
+  .container{
+      display: grid;
+}
+
+.container div {  
+  margin: 10px;
+  padding: 15px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.container div.header {
+
+}
+
+.character-box{
+  display: flex;
+  padding: 20px;
+}
+
+.skill-box{
+  display: grid;
+  padding: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+  </style>
+
+
+  <header class="character-box">
     {% if page.image %}
       <img
         src="{{ page.image | relative_url }}"
         alt="{{ page.name }}"
+        height="450vh"
+        width="450vh"
       >
     {% endif %}
+    <div class="container">
+      <div class="header">
+        <h1>{{ page.name }}</h1>
+      </div>
 
-    <h1>{{ page.name }}</h1>
-  </header>
-
-    <section>
-        <p><strong>Gender:</strong> {{ page.gender }} <strong>Pronouns:</strong> {{ page.pronouns }} </p>
-    </section>
+      <div class="content">
+      <p><b>Gender</b> {{ page.gender }}</p>
+      <p><b>Pronouns</b> {{ page.pronouns }}</p>
 
       {% if page.profession %}
-        <p><strong>Profession:</strong> {{ page.profession }}</p>
+        <p><b>Profession:</b> {{ page.profession }}</p>
       {% endif %}
 
       {% if page.affiliation %}
-        <p><strong>Affiliation:</strong> {{ page.affiliation }}</p>
+        <p><b>Affiliation:</b> {{ page.affiliation }}</p>
       {% endif %}
 
-      
-  
-  {% if page.affiliations %}
-    <p>{{ page.affiliations }}</p>
-  {% endif %}
+      {% if page.affiliations %}
+        <p>{{ page.affiliations }}</p>
+      {% endif %}
+      </div>
 
+    </div>
+  </header>
 
-  {% if page.about %}
-    <section>
-      <h2>About</h2>
-      {{ page.about | markdownify }}
-    </section>
-  {% endif %}
+ 
+{% if page.about or page.skills %}
 
+  <div>
+    {% if page.skills %}
+        <h2>About</h2>
+        {{ page.about | markdownify }}
+    {% endif %}
 
   {% if page.skills %}
-    <section>
-      <h2>Skills</h2>
+    {% assign full_star = "★" %}
+    {% assign empty_star = "☆" %}
 
+    <h2>Skills</h2>
+    <div class="skill-box">
       {% for skill in page.skills %}
-        <article>
-          <h3>{{ skill.name }} [ {{ skill.value }} ]</h3>
-        </article>
+        {% assign text = "" %}
+
+        {% for i in (1..5) %}
+          {% if i <= skill.value %}
+            {% assign text = text | append: full_star %}
+          {% else %}
+            {% assign text = text | append: empty_star %}
+          {% endif %}
+        {% endfor %}
+        <p>{{ skill.name }}</p>
+        <p>{{ text }}</p>
       {% endfor %}
-    </section>
+    </div>
   {% endif %}
+    </div>
+{% endif %}
 
-
+  
   {% if page.relationships %}
-    <section>
+  <div>
       <h2>Relationships</h2>
 
       {% for relationship in page.relationships %}
-        <article>
           <img
           src="{{ relationship.image | relative_url }}"
           alt="{{ relationship.name }}"
           >
           <h3>{{ relationship.name }}</h3>
           <p>{{ relationship.type }}</p>
-        </article>
       {% endfor %}
-    </section>
+  </div>
   {% endif %}
-
-</article>
