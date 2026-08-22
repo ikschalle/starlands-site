@@ -1,67 +1,40 @@
 ---
 layout: default
 ---
-
-  <style>
-  .container{
-      display: grid;
-}
-
-.container div {  
-  margin: 10px;
-  padding: 15px;
-    grid-template-columns: auto auto auto auto;
-}
-
-.container div.header {
-
-}
-
-.character-box{
-  display: flex;
-  padding: 20px;
-}
-
-.skill-box{
-  display: grid;
-  padding: 20px;
-  grid-template-columns: auto auto auto auto;
-}
-  </style>
-
+  <head>
+    <link rel="stylesheet" href="/assets/css/character.css">
+  </head>
 
   <header class="character-box">
     {% if page.image %}
+    <div class="character-portrait">
       <img
         src="{{ page.image | relative_url }}"
         alt="{{ page.name }}"
-        height="450vh"
-        width="450vh"
       >
+    </div>
     {% endif %}
-    <div class="container">
-      <div class="header">
-        <h1>{{ page.name }}</h1>
-      </div>
 
-      <div class="content">
-      <p><b>Gender</b> {{ page.gender }}</p>
-      <p><b>Pronouns</b> {{ page.pronouns }}</p>
+    <div class="character-info">
+      <h1>{{ page.name }}</h1>
+
+      <dl class="character-detail">
+      <dt>Gender</dt> <dd>{{ page.gender }}</dd>
+      <dt>Pronouns</dt> <dd>{{ page.pronouns }}</dd>
+
+      <dt></dt> <dd></dd>  
 
       {% if page.profession %}
-        <p><b>Profession:</b> {{ page.profession }}</p>
+        <dt>Profession</dt> <dd>{{ page.profession }}</dd>
       {% endif %}
 
       {% if page.affiliation %}
-        <p><b>Affiliation:</b> {{ page.affiliation }}</p>
+        <dt>Affiliation</dt> <dd>{{ page.affiliation }}</dd>
       {% endif %}
 
-      {% if page.affiliations %}
-        <p>{{ page.affiliations }}</p>
-      {% endif %}
-      </div>
-
+      </dl>
     </div>
+
   </header>
 
  
@@ -89,8 +62,9 @@ layout: default
             {% assign text = text | append: empty_star %}
           {% endif %}
         {% endfor %}
-        <p>{{ skill.name }}</p>
-        <p>{{ text }}</p>
+        <dl class="skill-field">
+        <dt>{{ skill.name }}</dt> <dd>{{ text }}</dd>
+        </dl>
       {% endfor %}
     </div>
   {% endif %}
