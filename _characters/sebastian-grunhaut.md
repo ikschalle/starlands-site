@@ -1,12 +1,13 @@
 ---
 layout: character
+uid: sebastian-grunhaut
 name: Sebastian Grünhaut
 gender: Male
 pronouns: He/They
 profession: Railway Engineer, Tinkerer
 affiliation: Stardoods Consortium, The Ninth Silence, Wulpin Rail Company
 
-image: /assets/img/characters/sebastian-grunhaut.png
+artfight: https://artfight.net/character/6406415
 
 about: |
     > "I have never done anything bad in my life. Ever."
@@ -28,4 +29,9 @@ skills:
     value: 1
   - name: Philanthropy 
     value: 0
+
+relationships:
+  ace-nightwing:
+    type: Friends?
+    description: '"The stench of tomato soup shall forever stain my mailbox..."'
 ---

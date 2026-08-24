@@ -69,12 +69,15 @@
         {% include sidebar.html %}
         <div id="post">
             <div class="inner-content">
+                {% if page.url != "/" %}
                 {% include category.html %}
+                {% endif %}
                 {% if page_type == "category" %}
                     {% include pagination.html %}
                 {% else %}
                     {% include post.html %}
                 {% endif %}
+
             </div>
         </div>
         {% include search.html %}

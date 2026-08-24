@@ -1,12 +1,13 @@
 ---
 layout: character
+uid: ace-nightwing
 name: Ace Nightwing
 gender: Genderfluid
 pronouns: He/They/She
 profession: Tax Officer, Lawyer
 affiliation: Stardoods Consortium, The Ninth Silence, Wulpin Rail Company
 
-image: /assets/img/characters/ace-nightwing.png
+artfight: https://artfight.net/character/10009519
 
 about: |
     Keep him on speed dial 'cause when you need a lawyer... you better call **Ace Nightwing**. Yes, the woman who looks like he's going to pass out if they think another thought. Those dark circles are hard earned medals of honour from toiling all night long, reading documents and filing tax reports.
@@ -30,7 +31,10 @@ skills:
     value: 3
 
 relationships:
-  - name: Magnus
-    type: 'very close "friend"' 
-    image: /assets/img/characters/magnus.png
+  magnus:
+    type: 'very close "friend"'
+    description: yeah theyre pretty gay
+  sebastian-grunhaut:
+    type: Frienemies
+    description: '"Hoo! Hoo!" (unverified source)'
 ---
