@@ -51,6 +51,7 @@ layout: default
     {% assign empty_star = "☆" %}
 
     <h2>Skills</h2>
+    <div style="justify-items: center;">
     <div class="skill-box">
       {% for skill in page.skills %}
         {% assign text = "" %}
@@ -66,6 +67,7 @@ layout: default
         <dt>{{ skill.name }}</dt> <dd>{{ text }}</dd>
         </dl>
       {% endfor %}
+    </div>
     </div>
   {% endif %}
     </div>
