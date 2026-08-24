@@ -5,8 +5,9 @@ gender: Female
 pronouns: She/Her
 profession: Tax Office Incumbent
 affiliation: Stardoods Consortium, The Ninth Silence
-
 image: /assets/img/characters/elene-sauvegeau.png
+
+artfight: https://artfight.net/character/6573871
 
 about: |
     > "It's a pleasure to meet you. I wish to welcome you to my establishment and hope you'll make yourself at home here."
