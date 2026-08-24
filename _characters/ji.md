@@ -1,12 +1,11 @@
 ---
 layout: character
+uid: ji
 name: Ji
 gender: Male
 pronouns: He/They
 profession: Guardian Angel, Altar Server
 affiliation: The Church of Edward
-
-image: /assets/img/characters/ji.png
 
 about: |
     > ”If you ever need a break from anything looming over your shoulders, your favourite (only) guardian angel is here to comfort you! ^_−☆”

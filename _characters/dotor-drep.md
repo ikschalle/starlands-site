@@ -1,11 +1,11 @@
 ---
 layout: character
+uid: dotor-drep
 name: Dotor Drep "Derp" Depping
 gender: Genderfluid
 pronouns: He/They
 profession: Historian, Archaeologist
 affiliation: Stardoods Consortium
-image: /assets/img/characters/dotor-drep.png
 
 artfight: https://artfight.net/character/8801867
 

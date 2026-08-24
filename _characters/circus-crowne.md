@@ -1,11 +1,11 @@
 ---
 layout: character
+uid: circus-crowne
 name: Circus Crowne
 gender: Male
 pronouns: He/They
 profession: 'Apothecary'
 affiliation: 
-image: /assets/img/characters/circus-crowne.png
 
 artfight: https://artfight.net/character/6408846
 

@@ -1,11 +1,11 @@
 ---
 layout: character
+uid: ace-nightwing
 name: Ace Nightwing
 gender: Genderfluid
 pronouns: He/They/She
 profession: Tax Officer, Lawyer
 affiliation: Stardoods Consortium, The Ninth Silence, Wulpin Rail Company
-image: /assets/img/characters/ace-nightwing.png
 
 artfight: https://artfight.net/character/10009519
 
@@ -31,7 +31,10 @@ skills:
     value: 3
 
 relationships:
-  - name: Magnus
-    type: 'very close "friend"' 
-    image: /assets/img/characters/magnus.png
+  magnus:
+    type: 'very close "friend"'
+    description: yeah theyre pretty gay
+  sebastian-grunhaut:
+    type: Frienemies
+    description: '"Hoo! Hoo!" (unverified source)'
 ---

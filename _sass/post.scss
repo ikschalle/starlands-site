@@ -177,8 +177,8 @@ main {
   * { margin:auto; }
 
   h1, h2, h3 {
-    margin-top:3rem;
-    margin-bottom:1rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
   }
   h1, .sh1 { font-size:1.75rem; }
   h2, .sh2 { font-size:1.375rem; }
@@ -213,15 +213,15 @@ main {
     }
   }
 
-  p, ul, table, div { margin-bottom:3rem; }
+  // p, ul, table, div { margin-bottom:3rem; }
 
-  p + div,
-  p + pre,
-  p + blockquote,
-  div + div,
-  div + blockquote { 
-    margin-top:-2rem; 
-  }
+  // p + div,
+  // p + pre,
+  // p + blockquote,
+  // div + div,
+  // div + blockquote { 
+  //   margin-top:-2rem; 
+  // }
 
   ul { padding-left:2rem; }
 
@@ -463,11 +463,11 @@ main {
 
   h1, .sh1 {
     font-size:2.25rem;
-    margin-top:5rem;
+    margin-top:2rem;
   }
   h2, .sh2 {
     font-size:1.75rem;
-    margin-top:4rem;
+    margin-top:1.5rem;
   }
   h3, .sh3 {
     font-size:1.375rem;

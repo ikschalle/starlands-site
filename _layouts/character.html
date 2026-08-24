@@ -6,21 +6,24 @@ layout: default
   </head>
 
   <header class="character-box">
-    {% if page.image %}
     <div class="character-portrait">
       <img
-        src="{{ page.image | relative_url }}"
+        src="{{site.baseurl}}/assets/img/characters/{{page.uid}}.png"
         alt="{{ page.name }}"
       >
     </div>
-    {% endif %}
 
     <div class="character-info">
       <h1>{{ page.name }}</h1>
 
       <dl class="character-detail">
+      {% if page.gender %}
       <dt>Gender</dt> <dd>{{ page.gender }}</dd>
+      {% endif %}
+
+      {% if page.pronouns %}
       <dt>Pronouns</dt> <dd>{{ page.pronouns }}</dd>
+      {% endif %}
 
       {% if page.profession %}
         <dt>Profession</dt> <dd>{{ page.profession }}</dd>
@@ -35,6 +38,15 @@ layout: default
 
   </header>
 
+  {% if page.artfight %}
+  <hr>
+    <div class="character-extra">
+      <ul>
+        <li> <a href="{{ page.artfight }}">Artfight</a> </li>
+      </ul>
+    </div>
+  <hr>
+  {% endif %}
  
 {% if page.about or page.skills %}
 
@@ -76,13 +88,41 @@ layout: default
   <div>
       <h2>Relationships</h2>
 
-      {% for relationship in page.relationships %}
-          <img
-          src="{{ relationship.image | relative_url }}"
-          alt="{{ relationship.name }}"
-          >
-          <h3>{{ relationship.name }}</h3>
-          <p>{{ relationship.type }}</p>
+      {% for target in site.characters %}
+      {% assign relationship = page.relationships[target.uid] %}
+
+      {% if relationship %}
+
+        <fieldset>
+                <legend><h3><a href="{{site.baseurl}}/characters/{{target.uid}}">{{ target.name }}</a></h3></legend>
+                <div class="relationship-container">
+
+                <!-- self view -->
+                <div class="relationship-content">
+                    <div class="relationship-thumb">
+                        <img src="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png" alt="{{ page.name }}">
+                    </div>
+
+                    <div class="relationship-text">
+                        <blockquote> {{ relationship.description }} </blockquote> 
+                         <p> {{ relationship.type }} </p> 
+                    </div>
+                </div>
+
+                <!-- other view -->
+                <div class="relationship-content">
+                  <div class="relationship-text">
+                        <blockquote> {{ target.relationships[page.uid].description }} </blockquote> 
+                        <p> {{ target.relationships[page.uid].type }} </p> 
+                  </div>
+                  <div class="relationship-thumb">
+                    <img src="{{site.baseurl}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}">
+                  </div>
+                </div>
+                </div>
+
+         </fieldset>
+         {% endif %}
       {% endfor %}
   </div>
   {% endif %}
