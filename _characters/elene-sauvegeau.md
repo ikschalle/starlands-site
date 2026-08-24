@@ -6,7 +6,7 @@ pronouns: She/Her
 profession: Tax Office Incumbent
 affiliation: Stardoods Consortium, The Ninth Silence
 
-image: /assets/images/characters/elene-sauvegeau.png
+image: /assets/img/characters/elene-sauvegeau.png
 
 about: |
     > "It's a pleasure to meet you. I wish to welcome you to my establishment and hope you'll make yourself at home here."

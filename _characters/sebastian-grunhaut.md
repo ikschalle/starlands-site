@@ -6,7 +6,7 @@ pronouns: He/They
 profession: Railway Engineer, Tinkerer
 affiliation: Stardoods Consortium, The Ninth Silence, Wulpin Rail Company
 
-image: /assets/images/characters/sebastian-grunhaut.png
+image: /assets/img/characters/sebastian-grunhaut.png
 
 about: |
     > "I have never done anything bad in my life. Ever."

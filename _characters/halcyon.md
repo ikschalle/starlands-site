@@ -6,7 +6,7 @@ pronouns: He/They
 profession: Professional Freeloader
 affiliation: Stardoods Consortium
 
-image: /assets/images/characters/halcyon.png
+image: /assets/img/characters/halcyon.png
 
 about: |
     > "I like tea! Not like that last guy... I swear!"

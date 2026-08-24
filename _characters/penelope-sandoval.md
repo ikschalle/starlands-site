@@ -6,7 +6,7 @@ pronouns: She/Her
 profession: Adventurer, Cartographer
 affiliation: The Ninth Silence
 
-image: /assets/images/characters/penelope-sandoval.png
+image: /assets/img/characters/penelope-sandoval.png
 
 about: |
   > "The fact that I'm still here means there's still a chance, slim it may be."
