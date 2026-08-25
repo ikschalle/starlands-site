@@ -2,6 +2,11 @@
 layout: default
 ---
   <head>
+    <meta property="og:title" content="{{ page.name }}">
+    <meta property="og:description" content="{{ page.about | strip_html | truncate: 200 }}">
+    <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+
     <link rel="stylesheet" href="{{ '/assets/css/character.css' | relative_url }}">
   </head>
 
@@ -48,15 +53,15 @@ layout: default
   <hr>
   {% endif %}
  
-{% if page.about or page.skills %}
-
-  <div>
-    {% if page.skills %}
+  {% if page.about %}
+    <div id="about">
         <h2>About</h2>
         {{ page.about | markdownify }}
-    {% endif %}
+    </div>
+  {% endif %}
 
   {% if page.skills %}
+    <div id="skills">
     {% assign full_star = "★" %}
     {% assign empty_star = "☆" %}
 
@@ -79,20 +84,18 @@ layout: default
       {% endfor %}
     </div>
     </div>
-  {% endif %}
     </div>
-{% endif %}
+  {% endif %}
 
   
   {% if page.relationships %}
-  <div>
+  <div id="relationships">
       <h2>Relationships</h2>
 
       {% for target in site.characters %}
       {% assign relationship = page.relationships[target.uid] %}
 
       {% if relationship %}
-
         <fieldset>
                 <legend><h3><a href="{{site.baseurl}}/characters/{{target.uid}}">{{ target.name }}</a></h3></legend>
                 <div class="relationship-container">
@@ -120,7 +123,6 @@ layout: default
                   </div>
                 </div>
                 </div>
-
          </fieldset>
          {% endif %}
       {% endfor %}

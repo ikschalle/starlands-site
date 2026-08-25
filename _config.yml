@@ -1,27 +1,15 @@
 url: "https://stardoods.github.io"
 title: starlands
 
-
 collections:
   characters:
     output: true
     permalink: /characters/:name/
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      date: "1900-01-01"
-
-
 # Markdown newline activator 
 kramdown:
   input: GFM
   hard_wrap: true
-
 
 # Exclude from processing
 

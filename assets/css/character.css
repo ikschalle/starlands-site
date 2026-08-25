@@ -14,14 +14,14 @@
   margin: 0;
 }
 
-.character-detail dt {
+dt {
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-.character-detail dd {
+dd {
   margin: 0.25rem 0 0;
 }
 
@@ -85,24 +85,25 @@
   }
 }
 
+#relationships h2 {
+  margin-bottom: 0;
+}
 
 .relationship-thumb img{
   padding: 0.5rem;
   aspect-ratio: 1;
-  min-width: 11rem;
-  max-width: 12rem;
+  min-width: 9rem;
+  max-width: 11rem;
 }
 
 .relationship-text {
   padding: 0.5rem;
 }
 
-/* .relationship-container
+.relationship-container
 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
+  margin-top: -2.3rem;
+}
 
 .relationship-content{
     display: flex;
@@ -113,9 +114,12 @@
 fieldset {
   border: 4px groove;
   border-radius: 1%;
-  margin-top: -4rem;
-}
+} 
 
 legend {
-  padding: 1rem;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;  
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
