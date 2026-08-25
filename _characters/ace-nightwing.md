@@ -34,7 +34,8 @@ relationships:
   magnus:
     type: 'very close "friend"'
     description: yeah theyre pretty gay
+
   sebastian-grunhaut:
-    type: Frienemies
-    description: '"Hoo! Hoo!" (unverified source)'
+    type: Frienemies (but more friend)
+    description: "\"Hoo! Hoo!\" (unverified source)"
 ---
