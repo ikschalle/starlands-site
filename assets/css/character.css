@@ -85,30 +85,52 @@ dd {
   }
 }
 
+
 #relationships h2 {
   margin-bottom: 0;
 }
 
-.relationship-thumb img{
-  padding: 0.5rem;
-  aspect-ratio: 1;
-  min-width: 9rem;
-  max-width: 11rem;
-}
-
-.relationship-text {
-  padding: 0.5rem;
-}
-
-.relationship-container
-{
+.relationship-container {
   margin-top: -2.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .relationship-content{
     display: flex;
+    width: 100%;
     gap: 1rem;
-    margin: 0.5rem;
+}
+
+.relationship-content.left{
+  justify-content: flex-start;
+}
+
+.relationship-content.right{
+  justify-content: flex-end;
+}
+
+.relationship-content img{
+  padding: 0.5rem;
+  aspect-ratio: 1;
+  min-width: 10rem;
+  max-width: 10rem;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.relationship-text {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  padding: 0.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+.relationship-text p {
+  margin: 0;
 }
 
 fieldset {

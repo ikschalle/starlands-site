@@ -6,13 +6,7 @@ gender: Male
 pronouns: He/They
 profession: 'Apothecary'
 affiliation: 
-
 artfight: https://artfight.net/character/6408846
-
-about: |
-    > "It's pride month! You know what that means!"
-
-    Clown
 
 skills:
   - name: Clownery
@@ -27,4 +21,15 @@ skills:
     value: 1
   - name: Tolerating Religion
     value: 0
+
+relationships:
+  sebastian-grunhaut:
+    description: "sucker"
+
 ---
+## About
+> "It's pride month! You know what that means!"
+
+Clown
+
+

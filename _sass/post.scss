@@ -264,8 +264,8 @@ main {
         border-radius:4px;
 
         svg {
-          -webkit-mask-image:url($baseurl + '/assets/img/icon/clipboard-regular.svg');
-          mask-image:url($baseurl + '/assets/img/icon/clipboard-regular.svg');
+          -webkit-mask-image:url($url + '/assets/img/icon/clipboard-regular.svg');
+          mask-image:url($url + '/assets/img/icon/clipboard-regular.svg');
           background-color:#555 !important; 
           mask-repeat:no-repeat;
           mask-position:center;
@@ -456,7 +456,7 @@ main {
 main {
   padding:2.5rem;
   padding-top:0;
-  font-size:1.125rem;
+  font-size:1.05rem;
 
   h1, .sh1 {
     font-size:2.25rem;
