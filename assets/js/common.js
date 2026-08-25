@@ -1,4 +1,4 @@
-var url = document.querySelector('meta[name="url"]').content;
+var baseurl = document.querySelector('meta[name="baseurl"]').content;
 
 document.addEventListener('DOMContentLoaded', function(){
     // Init theme
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function(){
     // kept nav opened
     var firstNavs = document.querySelectorAll('#nav-first');
     var page_path = window.location.pathname.replace(/%20/g, " ");
-    page_path = page_path.replace(url, "");
+    page_path = page_path.replace(baseurl, "");
     var page_tree = page_path.split('/');
 
     Array.prototype.forEach.call(firstNavs, function (nav_first) {

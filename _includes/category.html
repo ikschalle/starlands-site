@@ -5,7 +5,7 @@
         {%- assign search_tree = page.url | split: "/" -%}
         {%- assign page_link = "" -%}
 
-        <a href="{{ site.url }}/">Home</a>
+        <a href="{{ site.baseurl }}/">Home</a>
         >
 
         {%- for sub_tree in search_tree -%}
@@ -17,7 +17,7 @@
                 {%- if forloop.last -%}
                     {{ page.title | prepend: " " }}
                 {%- else -%}
-                    <a href="{{ page_link | prepend: site.url }}">
+                    <a href="{{ page_link | prepend: site.baseurl }}">
                         {{ sub_tree | replace: "-", " " | capitalize }}
                     </a>
                     >
