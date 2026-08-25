@@ -11,10 +11,7 @@ layout: default
 
   <header class="character-box">
     <div class="character-portrait">
-      <img
-        src="{{site.url}}/assets/img/characters/{{page.uid}}.png"
-        alt="{{ page.name }}"
-      >
+      <img src="{{site.url}}/assets/img/characters/{{page.uid}}.png" alt="{{ page.name }}">
     </div>
 
     <div class="character-info">
@@ -95,9 +92,9 @@ layout: default
                   
                 {% if relationship %}
                 <!-- self view -->
-                <div class="relationship-content left">
-                        <img src="{{site.url}}/assets/img/characters/thumb/{{page.uid}}.png" alt="{{ page.name }}">
-                    <div class="relationship-text">
+                <div class="relationship-content">
+                    <img src="{{site.url}}/assets/img/characters/thumb/{{page.uid}}.png" alt="{{ page.name }}">
+                    <div class="relationship-text left">
                         <blockquote> "{{ relationship.description }}" </blockquote> 
                          <p> {{ relationship.type }} </p> 
                     </div>
@@ -106,12 +103,12 @@ layout: default
 
                 <!-- other view -->
                 {% if target.relationships[page.uid] %}
-                <div class="relationship-content right">
-                  <div class="relationship-text">
+                <div class="relationship-content">
+                  <div class="relationship-text right">
                         <blockquote> "{{ target.relationships[page.uid].description }}" </blockquote> 
                         <p> {{ target.relationships[page.uid].type }} </p> 
                   </div>
-                    <img src="{{site.url}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}">
+                  <img src="{{site.url}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}">
                   </div>
                 {% endif %}
 

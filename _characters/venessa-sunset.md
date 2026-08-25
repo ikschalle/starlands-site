@@ -10,7 +10,7 @@ artfight: https://artfight.net/character/7632230
 
 relationships:
   sebastian-grunhaut:
-    description: "\"I do not miss his company.\""
+    description: "I do not miss his company."
 ---
 > Ara, Ara
 

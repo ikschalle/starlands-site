@@ -27,7 +27,7 @@ skills:
 relationships:
   ace-nightwing:
     type: Friends?
-    description: "The stench of tomato soup shall forever stain my mailbox..."
+    description: "tomato"
 
   elene-sauvegeau:
     type: Friends, probably.
