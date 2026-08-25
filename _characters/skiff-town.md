@@ -6,13 +6,7 @@ gender: Male
 pronouns: He/They
 profession: '"Pirate"'
 affiliation: 
-
 artfight: https://artfight.net/character/8744235
-
-about: |
-    > "Yarr"
-
-    Fish
 
 skills:
   - name: (Un)Luckiness
@@ -27,4 +21,10 @@ skills:
     value: 1
   - name: Eating Green Stuff
     value: 0
+
+relationships:
 ---
+## About
+> "Yarr"
+
+Fish

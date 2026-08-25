@@ -1,4 +1,3 @@
----
 layout: character -- DO NOT CHANGE
 uid: (kebab-string) -- middle and last name with no accents
 name: (string) 
@@ -6,11 +5,7 @@ gender: (string)
 pronouns: (string)
 profession: (string)
 affiliation: (string)
-
 artfight: (link)
-
-about: |
-    INDENTED HERE, follows markdown rules (like on discord)
 
 skills:
   - name: thing1
@@ -21,8 +16,7 @@ skills:
 relationships:
   uid-kebab:
     description: "\"blahblah\""
----
 
-ALL FIELDS EXCEPT LAYOUT & UID ARE TECHNICALLY OPTIONAL BUT YOU SHOULD PROBABLY HAVE A NAME FOR UR CHARACTER
-the main image should be located at assets/img/characters/uid-kebab-of-your-character.png
-the thumbnail/square image (used for, well, thumbnails) should be located at assets/img/characters/thumb/uid-kebab-of-your-character.png 
+above should be wrapped in ---
+
+MARKDOWN, HTML, AND LIQUID HERE -- renders between the character card and skills

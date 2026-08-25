@@ -4,26 +4,23 @@
   gap: 2rem;
   align-items: start;
   max-width: 100%;
-  margin: 0 auto;
+}
+
+.character-info {
+  margin: auto;
 }
 
 .character-detail {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem 0.5rem;
-  margin: 0;
 }
 
-dt {
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+.character-portrait img{
+  aspect-ratio: 9/16;
+  object-fit: contain;
 }
 
-dd {
-  margin: 0.25rem 0 0;
-}
 
 @media only screen and (max-width: 780px) {
   .character-box {
@@ -41,7 +38,7 @@ dd {
     grid-template-columns: 1fr;
   }
 
-  .character-portrait {
+  .character-portrait{
     max-width: 280px;
   }
 
@@ -85,35 +82,51 @@ dd {
   }
 }
 
+
 #relationships h2 {
   margin-bottom: 0;
 }
 
-.relationship-thumb img{
-  padding: 0.5rem;
-  aspect-ratio: 1;
-  min-width: 9rem;
-  max-width: 11rem;
-}
-
-.relationship-text {
-  padding: 0.5rem;
-}
-
-.relationship-container
-{
+.relationship-container {
   margin-top: -2.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .relationship-content{
     display: flex;
+    width: 100%;
     gap: 1rem;
-    margin: 0.5rem;
+
+    img {
+      padding: 0.5rem;
+      aspect-ratio: 1;
+      min-width: 9rem;
+      max-width: 9rem;
+      object-fit: cover;
+    }
 }
 
+.relationship-text {
+  padding: 0.5rem;
+  width: 100%;
+
+  p, blockquote {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+.relationship-text.left {
+  p, blockquote {justify-self: flex-start;}
+}
+.relationship-text.right {
+  p, blockquote {justify-self: flex-end;}
+}
+
+
 fieldset {
-  border: 4px groove;
+  border: 3px;
   border-radius: 1%;
+  border-style: solid;
 } 
 
 legend {
@@ -122,4 +135,15 @@ legend {
   margin-right: auto;  
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+dt {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+dd {
+  margin: 0.25rem 0 0;
 }

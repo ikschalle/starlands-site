@@ -6,11 +6,7 @@ gender: Male
 pronouns: He/They
 profession: Guardian Angel, Altar Server
 affiliation: The Church of Edward
-
-about: |
-    > ”If you ever need a break from anything looming over your shoulders, your favourite (only) guardian angel is here to comfort you! ^_−☆”
-
-    After crashing into the Starlands trying to get to another dimension, Ji observed many glow squids swimming around in the ocean and took a vow to protect every glowy creature he could find. The Matriarch was proud of his dedication and had casually invited Ji to join the Body of Edward to further expand his horizons. Ever since he arrived in Canyon Forest so many Edwards ago (before it was even named), he hasn’t been contacted by his former employer but he wishes them the best. Where did his wings go, you might ask? He hasn’t got a clue!
+artfight:
 
 skills:
   - name: Faithfulness
@@ -29,4 +25,10 @@ skills:
     value: 1
   - name: Reading The Room
     value: 0
+
+relationships:
 ---
+## About
+> ”If you ever need a break from anything looming over your shoulders, your favourite (only) guardian angel is here to comfort you! ^_−☆”
+
+After crashing into the Starlands trying to get to another dimension, Ji observed many glow squids swimming around in the ocean and took a vow to protect every glowy creature he could find. The Matriarch was proud of his dedication and had casually invited Ji to join the Body of Edward to further expand his horizons. Ever since he arrived in Canyon Forest so many Edwards ago (before it was even named), he hasn’t been contacted by his former employer but he wishes them the best. Where did his wings go, you might ask? He hasn’t got a clue!
