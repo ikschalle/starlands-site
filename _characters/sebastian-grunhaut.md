@@ -27,11 +27,11 @@ skills:
 relationships:
   ace-nightwing:
     type: Friends?
-    description: "tomato"
+    description: "🍅"
 
   elene-sauvegeau:
     type: Friends, probably.
-    description: "Dearest Elene. We've had our moments of abrasion but I much prefer she to her predecessor. I'd like to avoid slighting her - and the authority of her office - but it is a habit of old."
+    description: "Dearest Elene, We've had our moments of abrasion but I much prefer she to her predecessor. I'd like to avoid slighting her but has become something of habit."
 
   dotor-drep: 
     type: Friends
@@ -39,7 +39,7 @@ relationships:
 
   venessa-sunset: 
     type: Frenenemies
-    description: "Unmistakably pristine at the surface, she had class; that I respect. But she was rotten. Rotted through all the way to marrow under that brim. Her soul, her business, her prices. All foul and odoriferous."
+    description: "Pristine at the surface, she had class; that I respect. But she was rotten. Rotted through all the way to marrow under that shadowy brim. Her soul, her business, her prices. All foul and odoriferous."
 ---
 ## About
 > "I have never done anything bad in my life. Ever."

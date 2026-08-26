@@ -5,8 +5,6 @@ layout: default
     <meta property="og:title" content="{{ page.name }}">
     <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-
-    <link rel="stylesheet" href="{{ '/assets/css/character.css' | relative_url }}">
   </head>
 
   <header class="character-box">
@@ -108,7 +106,7 @@ layout: default
                         <blockquote> "{{ target.relationships[page.uid].description }}" </blockquote> 
                         <p> {{ target.relationships[page.uid].type }} </p> 
                   </div>
-                  <img src="{{site.baseurl}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}">
+                  <a href="{{site.baseurl}}/characters/{{target.uid}}"><img src="{{site.baseurl}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}"></a>
                   </div>
                 {% endif %}
 

@@ -2,6 +2,24 @@
 ---
 $baseurl: "{{ site.baseurl }}";
 
+$color-wenge: #66545E;
+$color-beige: #F1EBE5;
+$color-darkbrown: #3A241A;
+$color-darkorange: #B04008;
+$color-rose: #fa4251;
+$color-aqua: #64c8c8;
+$color-rule: burlywood;
+
+$sidebarwd: 18rem;
+$contentwd: 54rem;
+
+$mediawd: (
+  mobile: 320px,
+  tablet: 769px,
+  desktop: 1025px,
+  wide: 1441px,
+) !default;
+
 html, body {
   margin:0;
   padding:0;
@@ -14,7 +32,7 @@ html, body {
 }
 
 a { text-decoration:none; }
-a, span, p, h1, h2, h3, i, dd, dt, blockquote { color:#3A241A; }
+a, span, p, h1, h2, h3, i, dd, dt, blockquote { color:$color-darkbrown; }
 a, span, p { font-family:'Lucida Sans', sans-serif; }
 h1, h2, h3, mark {
   margin:0;
@@ -25,7 +43,7 @@ mark { background-color:transparent; }
 svg {
   width:16px;
   aspect-ratio:1.0;
-  fill:#3A241A;
+  fill: $color-darkbrown;
   display:block;
   margin:auto;
 }
@@ -50,7 +68,6 @@ input::-webkit-search-results-decoration{
 	display:none;
 }
 
-@import 'vars';
 @import 'layout';
 
 :root{
@@ -64,3 +81,4 @@ input::-webkit-search-results-decoration{
 @import "post";
 @import "search";
 @import "darkmode";
+@import "character";

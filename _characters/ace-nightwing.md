@@ -30,7 +30,7 @@ relationships:
     description: "yeah theyre pretty gay"
 
   sebastian-grunhaut:
-    type: Frienemies (but more friend)
+    type: Frienfrienemies
     description: "Hoo! Hoo! (unverified source)"
 ---
 ## About

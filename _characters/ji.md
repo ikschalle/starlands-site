@@ -18,7 +18,7 @@ skills:
   - name: Comforting Others 
     value: 4
   - name: Petting Cats
-    value: 4
+    value: 2
   - name: Singing
     value: 3
   - name: Shooting (his shot)
@@ -27,6 +27,9 @@ skills:
     value: 0
 
 relationships:
+  su:
+    type: Husband
+    description: "After all these years, I'm so glad he's stuck by me! W-Well, not in his cat form, I'd probably be dead by now...  T^T"
 ---
 ## About
 > ”If you ever need a break from anything looming over your shoulders, your favourite (only) guardian angel is here to comfort you! ^_−☆”

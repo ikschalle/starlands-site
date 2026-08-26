@@ -3,7 +3,7 @@ layout: character
 uid: skiff-town
 name: Skiff Town
 gender: Male
-pronouns: He/They
+pronouns: He/They/Fish
 profession: '"Pirate"'
 affiliation: 
 artfight: https://artfight.net/character/8744235
