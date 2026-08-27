@@ -22,9 +22,14 @@ relationships:
   su:
     type: Husband
     description: "After all these years, I'm so glad he's stuck by me! W-Well, not in his cat form, I'd probably be dead by now...  T^T"
+
   furina-l-eglise:
     type: Her Pretty Altar Boy Indeed
     description: "I do thank the Matriarch for inviting me to help her out in the Church! Reminds me a lot of my old job... J-Just please don't make me do more chapel service, I've done too many of them!"
+
+  alliyse-lyrina:
+    type: Acquaintance
+    description: "P-Please get away from me! I like my hair! (╥﹏╥)"
 ---
 ## About
 > ”If you ever need a break from anything looming over your shoulders, your favourite (only) guardian angel is here to comfort you! ^_−☆”

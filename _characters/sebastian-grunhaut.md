@@ -35,6 +35,10 @@ relationships:
   venessa-sunset: 
     type: Frenenemy
     description: "Pristine at the surface, she had class; that I respect. But she was rotten. Rotted through all the way to marrow under that shadowy brim. Her soul, her business, her prices. All foul and odoriferous."
+
+  allyn-asubaki:
+    type: Daughter-for-tax-purposes
+    description: "Young ones are universally unlearned but that is not my responsibility to amend, I am far too busy with affairs of actual importance."
 ---
 ## About
 > "I have never done anything bad in my life. Ever."

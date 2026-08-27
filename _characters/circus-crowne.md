@@ -17,8 +17,13 @@ skills:
   Tolerating Religion: 0
 
 relationships:
-  sebastian-grunhaut:
-    description: "sucker"
+  iola:
+    type: Friend 
+    description: "Pride month has gone and passed and she has yet to get back to me."
+
+  skiff-town:
+    type: sucker.
+    description: "A loveable loser, but only loveable because he gives me plants and tea."
 
 ---
 ## About

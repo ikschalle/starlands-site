@@ -17,6 +17,9 @@ skills:
   Eating Green Stuff: 0
 
 relationships:
+  circus-crowne:
+    type: Business Partner
+    description: "A great enigma at first but I <i>think</i> I understand his deal now. I like him."
 ---
 ## About
 > "Yarr"
