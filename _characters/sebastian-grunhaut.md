@@ -4,8 +4,10 @@ uid: sebastian-grunhaut
 name: Sebastian Grünhaut
 gender: Male
 pronouns: He/They
-profession: Railway Engineer, Tinkerer
-affiliation: Stardoods Consortium, The Ninth Silence, Wulpin Rail Company
+profession: Railway Engineer
+affiliation: 
+  wulpin-rail-company: CEO
+  stardoods-consortium:
 artfight: https://artfight.net/character/6406415
 
 skills:

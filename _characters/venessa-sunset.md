@@ -5,14 +5,15 @@ name: Venessa Sunset
 gender: 
 pronouns: She/Her
 profession: 
-affiliation: Twilight Valley
+affiliation:
 artfight: https://artfight.net/character/7632230
 
 relationships:
   sebastian-grunhaut:
     description: "I do not miss his company."
 ---
-> Ara, Ara
+## About
+> "Ara, Ara"
 
 When the Twilight Manor’s doors open, Venessa Sunset is usually the first to greet you. When the storm rages outside and you have no shelter, she will happily provide you with dinner and a proper bedroom. Unfortunately, that means you have become an unfortunate victim of hers, as your blood is on her dinner menu.<br>
 While she is naturally sweet and perhaps even a bit clueless, that is nothing more than a veil for her cruelty. She struggles to see mortals as more than prey, mere playthings for greater beings such as herself.<br>
