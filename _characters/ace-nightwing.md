@@ -10,7 +10,7 @@ affiliation:
   stardoods-consortium:
   stardoods-tax-office: Lawyer 
   wulpin-rail-company: Lawyer
-artfight: https://artfight.net/character/10009519
+artfight-id: 10009519
 
 skills:
   Representing You In Court!: 5

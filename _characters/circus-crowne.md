@@ -6,7 +6,7 @@ gender: Male
 pronouns: He/They
 profession: 'Apothecary'
 affiliation: 
-artfight: https://artfight.net/character/6408846
+artfight-id: 6408846
 
 skills:
   Clownery: 5

@@ -6,7 +6,7 @@ gender: Male
 pronouns: He/They/Fish
 profession: '"Pirate"'
 affiliation: 
-artfight: https://artfight.net/character/8744235
+artfight-id: 8744235
 
 skills:
   (Un)Luckiness: 5

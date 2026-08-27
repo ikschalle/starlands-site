@@ -6,7 +6,7 @@ gender:
 pronouns: She/Her
 profession: 
 affiliation:
-artfight: https://artfight.net/character/7632230
+artfight-id: 7632230
 
 relationships:
   sebastian-grunhaut:

@@ -26,7 +26,7 @@ profession: (string)
 affiliation: 
 	org-uid: rank/title (string) 
 	org-uid:
-artfight: (link)
+artfight-id: (int)
 
 skills:
   thing1: (int, 0-5)

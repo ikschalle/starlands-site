@@ -6,7 +6,7 @@ gender:
 pronouns: He/They
 profession: Professional Freeloader
 affiliation: Stardoods Consortium
-artfight:
+artfight-id:
 
 skills:
   Freeloading: 4

@@ -6,7 +6,7 @@ gender: Female
 pronouns: She/Her
 profession: Adventurer, Cartographer
 affiliation: The Ninth Silence
-artfight:
+artfight-id:
 
 skills:
   Cartography: 3

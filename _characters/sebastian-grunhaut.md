@@ -8,7 +8,7 @@ profession: Railway Engineer
 affiliation: 
   wulpin-rail-company: CEO
   stardoods-consortium:
-artfight: https://artfight.net/character/6406415
+artfight-id: 6406415
 
 skills:
   Tinkering: 5

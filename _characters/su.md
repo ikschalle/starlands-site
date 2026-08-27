@@ -6,7 +6,7 @@ gender: Male
 pronouns: He/Him
 profession: Unemployed
 affiliation: 
-artfight:
+artfight-id:
 
 skills:
   Piano: 5

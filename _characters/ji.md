@@ -6,7 +6,7 @@ gender: Male
 pronouns: He/They
 profession: Guardian Angel, Altar Server
 affiliation: The Church of Edward
-artfight:
+artfight-id:
 
 skills:
   Faithfulness: 5

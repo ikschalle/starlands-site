@@ -6,7 +6,7 @@ gender: Female
 pronouns: She/Her
 profession: Matriarch Of The Church of Edward
 affiliation: 
-artfight:
+artfight-id:
 
 skills:
   Evangelism: 5

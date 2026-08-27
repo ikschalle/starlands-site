@@ -6,7 +6,7 @@ gender: Genderfluid
 pronouns: He/They
 profession: Historian, Archaeologist
 affiliation: Stardoods Consortium
-artfight: https://artfight.net/character/8801867
+artfight-id: 8801867
 
 skills:
   Weird Behaviours: 5

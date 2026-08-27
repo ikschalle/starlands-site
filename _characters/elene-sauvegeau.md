@@ -9,7 +9,7 @@ affiliation:
   the-ninth-silence:
   stardoods-consortium:
   stardoods-tax-office:
-artfight: https://artfight.net/character/6573871
+artfight-id: 6573871
 
 skills:
   Household Chores: 5
