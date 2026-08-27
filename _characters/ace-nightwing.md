@@ -23,12 +23,24 @@ skills:
 
 relationships:
   magnus:
-    type: 'very close "friend"'
-    description: "yeah theyre pretty gay"
+    type: 'Very Close "Friend"'
+    description: "yeah we're pretty gay"
 
   sebastian-grunhaut:
-    type: Frienfrienemies
-    description: "Hoo! Hoo! (unverified source)"
+    type: Frienfrienemy
+
+  elene-sauvegeau:
+    type: Close Friend
+
+  penelope-sandoval:
+    type: Friend of A Friend
+
+  furina-l-eglise:
+    type: Good Friend
+
+  phio:
+    type: Acquaintance
+    description: "They seemed to enjoy the pie I made. They spark my curiosity but I get the feeling they'd prefer their space." 
 ---
 ## About
 

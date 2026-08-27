@@ -21,19 +21,19 @@ skills:
 
 relationships:
   ace-nightwing:
-    type: Friends?
+    type: Friend?
     description: "🍅"
 
   elene-sauvegeau:
-    type: Friends, probably.
+    type: Friend, probably.
     description: "Dearest Elene, We've had our moments of abrasion but I much prefer she to her predecessor. I'd like to avoid slighting her but has become something of habit."
 
   dotor-drep: 
-    type: Friends
+    type: Friend
     description: "Curious fellow. One of my greatest customers despite no true agreement between us, though I wish he'd stop looking at me like that."
 
   venessa-sunset: 
-    type: Frenenemies
+    type: Frenenemy
     description: "Pristine at the surface, she had class; that I respect. But she was rotten. Rotted through all the way to marrow under that shadowy brim. Her soul, her business, her prices. All foul and odoriferous."
 ---
 ## About
