@@ -49,7 +49,7 @@ main {
   strong { color:lightgrey; }
 
   a { 
-    color:dodgerblue; 
+    color: $color-link; 
 
     &::before {
       color:mediumseagreen;

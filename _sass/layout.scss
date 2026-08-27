@@ -13,15 +13,15 @@
   }
 }
 
-#stars {
-  display:none;
-  position:fixed;
-  width:100%;
-  height:100vh;
-  z-index:-1;
-  background:none;
-}
+// #stars {
+//   display:none;
+//   position:fixed;
+//   width:100%;
+//   height:100vh;
+//   z-index:-1;
+//   background:none;
+// }
 
-@include mq(desktop){
-  #stars { display:block; }
-}
+// @include mq(desktop){
+//   #stars { display:block; }
+// }

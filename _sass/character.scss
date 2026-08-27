@@ -50,36 +50,16 @@
 
 .skill-box {
   display: grid;
-  grid-template-columns: minmax(200px, 320px) 1fr;
   gap: 2rem;
-  align-items: start;
-  max-width: 100%;
-  margin: 0 auto;
 }
+@include mq(mobile){.skill-box{ grid-template-columns: 1fr; }}
+@include mq(tablet) {.skill-box{ grid-template-columns: repeat(2, 1fr); }}
 
-.skill-field{
+.skill-field {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin: 0;
-}
-
-@media only screen and (max-width: 780px) {
-  .skill-box {
-    grid-template-columns: 240px 1fr;
-    gap: 1.25rem;
-    
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .skill-box {
-    grid-template-columns: 1fr;
-  }
-
-  .skill-field {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 
@@ -95,17 +75,10 @@
 }
 
 .relationship-content{
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 
-    img {
-
-      aspect-ratio: 1;
-      min-width: 8rem;
-      max-width: 8rem;
-      object-fit: cover;
-      border-radius: 18px;
-    }
+  @include img-rounded-thumb
 }
 
 .relationship-text {
@@ -147,3 +120,23 @@ dt {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+.character-index {
+  @include img-rounded-thumb;
+
+  display: grid;
+  gap: 2rem;
+  align-items: flex-start;
+}
+@include mq(mobile){.character-index{ grid-template-columns: repeat(3, 1fr); }}
+@include mq(tablet) {.character-index{ grid-template-columns: repeat(4, 1fr); }}
+
+.character-index-box {
+  display: flex;
+  flex-direction: column;
+
+  p{text-align: center;}
+}
+
+
+

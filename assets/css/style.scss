@@ -9,6 +9,7 @@ $color-darkorange: #B04008;
 $color-rose: #fa4251;
 $color-aqua: #64c8c8;
 $color-rule: burlywood;
+$color-link: dodgerblue;
 
 $sidebarwd: 18rem;
 $contentwd: 54rem;
@@ -26,7 +27,7 @@ html, body {
 }
 
 .fonts-loaded {
-  a, span, p, dd, dt, blockquote { font-family:"Nunito Sans", 'Lucida Sans', sans-serif; }
+  a, span, p, dd, dt, blockquote, legend { font-family:"Nunito Sans", 'Lucida Sans', sans-serif; }
   h1, h2, h3 { font-family:"Lato", Helvetica, sans-serif; }
   mark { font-family:'Righteous', sans-serif; }
 }
@@ -66,6 +67,16 @@ input::-webkit-search-cancel-button,
 input::-webkit-search-results-button,
 input::-webkit-search-results-decoration{
 	display:none;
+}
+
+@mixin img-rounded-thumb {
+  img {
+    aspect-ratio: 1;
+    min-width: 8rem;
+    max-width: 8rem;
+    object-fit: cover;
+    border-radius: 18px;
+  }
 }
 
 @import 'layout';
