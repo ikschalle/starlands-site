@@ -15,7 +15,7 @@ $sidebarwd: 18rem;
 $contentwd: 54rem;
 
 $mediawd: (
-  mobile: 320px,
+  mobile: 0px,
   tablet: 769px,
   desktop: 1025px,
   wide: 1441px,
@@ -72,10 +72,16 @@ input::-webkit-search-results-decoration{
 @mixin img-rounded-thumb {
   img {
     aspect-ratio: 1;
-    min-width: 8rem;
-    max-width: 8rem;
     object-fit: cover;
     border-radius: 18px;
+  }
+
+  @include mq(mobile){
+    img{ min-width: 6rem; max-width: 6rem; }
+  }
+
+  @include mq(tablet) {
+    img{ min-width: 8rem; max-width: 8rem }
   }
 }
 

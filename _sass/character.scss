@@ -75,10 +75,10 @@
 }
 
 .relationship-content{
+  @include img-rounded-thumb;
   display: flex;
   gap: 1rem;
-
-  @include img-rounded-thumb
+  padding: 1rem;
 }
 
 .relationship-text {
@@ -125,11 +125,22 @@ dt {
   @include img-rounded-thumb;
 
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: flex-start;
+  p{margin-bottom: 0;}
+
+  @include mq(mobile){
+  grid-template-columns: repeat(3, 1fr);
+  img{ min-width: 4rem;}
 }
-@include mq(mobile){.character-index{ grid-template-columns: repeat(3, 1fr); }}
-@include mq(tablet) {.character-index{ grid-template-columns: repeat(4, 1fr); }}
+
+@include mq(tablet) {
+  grid-template-columns: repeat(4, 1fr);
+  img{ min-width: 6rem;}
+}
+}
+
+
 
 .character-index-box {
   display: flex;

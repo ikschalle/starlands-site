@@ -7,7 +7,7 @@ mixins should also be defined in this file (reusable css called with @import, ba
 
 media queries are made with the following:
 
-	@import mq(DEVICE_TYPE) {CSS HERE}
+	@include mq(DEVICE_TYPE) {CSS HERE}
 
 DEVICE_TYPE is mobile, tablet, desktop, wide
 queries should be used when stuff looks weird when resized
