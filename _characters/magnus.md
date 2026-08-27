@@ -21,6 +21,7 @@ skills:
 relationships:
     ace-nightwing:
         type: '"Close Friend"'
+        description: "The moon is beautiful tonight, isn't it?"
 
     elene-sauvegeau:
         type: Close Friend

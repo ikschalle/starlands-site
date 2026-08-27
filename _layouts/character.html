@@ -27,10 +27,6 @@ title: Characters
         <dt>Profession</dt> <dd>{{ page.profession }}</dd>
       {% endif %}
 
-      <!-- {% if page.affiliation %}
-        <dt>Affiliation</dt> <dd>{{ page.affiliation }}</dd>
-      {% endif %} -->
-
       </dl>
     </div>
   </header>
@@ -94,8 +90,13 @@ title: Characters
                 <div class="relationship-content">
                     <img src="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png" alt="{{ page.name }}">
                     <div class="relationship-text left">
-                        <blockquote> "{{ relationship.description }}" </blockquote> 
-                         <p> {{ relationship.type }} </p> 
+                        {% if relationship.description %}
+                          <blockquote> "{{ relationship.description }}" </blockquote> 
+                        {% endif %}
+
+                        {% if relationship.type %} 
+                          <p> {{ relationship.type }} </p> 
+                        {% endif %}
                     </div>
                 </div>
                 {% endif %}
@@ -104,8 +105,13 @@ title: Characters
                 {% if target.relationships[page.uid] %}
                 <div class="relationship-content">
                   <div class="relationship-text right">
-                        <blockquote> "{{ target.relationships[page.uid].description }}" </blockquote> 
-                        <p> {{ target.relationships[page.uid].type }} </p> 
+                        {% if target.relationships[page.uid].description %} 
+                          <blockquote> "{{ target.relationships[page.uid].description }}" </blockquote> 
+                        {% endif %}
+
+                        {% if target.relationships[page.uid].type %}
+                          <p> {{ target.relationships[page.uid].type }} </p> 
+                        {% endif %}
                   </div>
                   <a href="{{site.baseurl}}/characters/{{target.uid}}"><img src="{{site.baseurl}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}"></a>
                   </div>

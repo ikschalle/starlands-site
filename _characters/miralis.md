@@ -26,7 +26,7 @@ relationships:
 
     thallium-blastum: 
         type: Father Figure
-        description: (He taught him as much as he could, immensely thankful to have met him, fiercely Determined to Save him.)
+        description: (He taught him as much as he could, immensely thankful to have met him, fiercely determined to Save him.)
 
     sebastian-grunhaut:
         type: Friends!
@@ -34,7 +34,7 @@ relationships:
 
     phio:
         type: Oldest Friend
-        description: (Very Happy to talk to, Currently Trying to Sneak past to go save Thallium, Is Certain he can do it.)
+        description: (Very Happy to talk to, currently trying to sneak past to go save Thallium, Is certain he can do it.)
 
     venessa-sunset:
         type: Strange Lady

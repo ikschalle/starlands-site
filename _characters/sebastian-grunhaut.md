@@ -22,7 +22,7 @@ skills:
 relationships:
   ace-nightwing:
     type: Friend?
-    description: "🍅"
+    description: "In the unlikely event there is a catastrophic and completely unintentional accident which casts the flames of the law upon me, I would want this paragon of a lawyer to extinguish them.
 
   elene-sauvegeau:
     type: Friend, probably.
