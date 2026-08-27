@@ -9,22 +9,14 @@ affiliation:
 artfight:
 
 skills:
-  - name: Evangelism
-    value: 5
-  - name: Singing
-    value: 5
-  - name: Public
-    value: 4
-  - name: Writing
-    value: 4
-  - name: Naivety
-    value: 3
-  - name: Handwriting
-    value: 2
-  - name: Cooking
-    value: 1
-  - name: Combat
-    value: 0 
+  Evangelism: 5
+  Singing: 5
+  Public: 4
+  Writing: 4
+  Naivety: 3
+  Handwriting: 2
+  Cooking: 1
+  Combat: 0
 
 relationships:
   ji:

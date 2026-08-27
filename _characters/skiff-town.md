@@ -9,18 +9,12 @@ affiliation:
 artfight: https://artfight.net/character/8744235
 
 skills:
-  - name: (Un)Luckiness
-    value: 5
-  - name: Suffering From Large Tail Inconvenience
-    value: 5
-  - name: Striking Deals
-    value: 3
-  - name: Saying Goodbye
-    value: 2
-  - name: Pirating
-    value: 1
-  - name: Eating Green Stuff
-    value: 0
+  (Un)Luckiness: 5
+  Suffering From Large Tail Inconvenience: 5
+  Striking Deals: 3
+  Saying Goodbye: 2
+  Pirating: 1
+  Eating Green Stuff: 0
 
 relationships:
 ---

@@ -9,20 +9,13 @@ affiliation: Stardoods Consortium
 artfight:
 
 skills:
-  - name: Freeloading
-    value: 4
-  - name: Accidentally Dying
-    value: 4
-  - name: Sailing
-    value: 3
-  - name: Cooking 
-    value: 3
-  - name: Remembering
-    value: 1
-  - name: Charisma
-    value: 1
-  - name: Bravery
-    value: 0
+  Freeloading: 4
+  Accidentally Dying: 4
+  Sailing: 3
+  Cooking: 3
+  Remembering: 1
+  Charisma: 1
+  Bravery: 0
 
 relationships:
 ---

@@ -13,20 +13,13 @@ affiliation:
 artfight: https://artfight.net/character/10009519
 
 skills:
-  - name: Representing You In Court!
-    value: 5
-  - name: Cooking
-    value: 4
-  - name: Rizzing Men
-    value: 5
-  - name: Rizzing Women
-    value: 0
-  - name: Manual Labour
-    value: 2
-  - name: Literacy
-    value: 5
-  - name: Combat
-    value: 3
+  Representing You In Court!: 5
+  Cooking: 4
+  Rizzing Men: 5
+  Rizzing Women: 0
+  Manual Labour: 2
+  Literacy: 5
+  Combat:  3
 
 relationships:
   magnus:

@@ -59,14 +59,15 @@ title: Characters
         {% assign text = "" %}
 
         {% for i in (1..5) %}
-          {% if i <= skill.value %}
+          {% if i <= skill[1] %}
             {% assign text = text | append: full_star %}
           {% else %}
             {% assign text = text | append: empty_star %}
           {% endif %}
         {% endfor %}
+
         <dl class="skill-field">
-        <dt>{{ skill.name }}</dt> 
+        <dt>{{ skill[0] }}</dt> 
         <dd>{{ text }}</dd>
         </dl>
       {% endfor %}

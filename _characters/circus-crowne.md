@@ -9,18 +9,12 @@ affiliation:
 artfight: https://artfight.net/character/6408846
 
 skills:
-  - name: Clownery
-    value: 5
-  - name: Alchemy
-    value: 5
-  - name: Nonchalance
-    value: 4
-  - name: Cooking
-    value: 3
-  - name: Threat Perception
-    value: 1
-  - name: Tolerating Religion
-    value: 0
+  Clownery: 5
+  Alchemy: 5
+  Nonchalance: 4
+  Cooking: 3
+  Threat Perception: 1
+  Tolerating Religion: 0
 
 relationships:
   sebastian-grunhaut:

@@ -9,22 +9,14 @@ affiliation: The Church of Edward
 artfight:
 
 skills:
-  - name: Faithfulness
-    value: 5
-  - name: Eating Apples
-    value: 5
-  - name: Awkwardness
-    value: 5
-  - name: Comforting Others 
-    value: 4
-  - name: Petting Cats
-    value: 2
-  - name: Singing
-    value: 3
-  - name: Shooting (his shot)
-    value: 1
-  - name: Reading The Room
-    value: 0
+  Faithfulness: 5
+  Eating Apples: 5
+  Awkwardness: 5
+  Comforting Others: 4
+  Petting Cats: 2
+  Singing: 3
+  Shooting (his shot): 1
+  Reading The Room: 0
 
 relationships:
   su:

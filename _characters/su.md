@@ -9,22 +9,14 @@ affiliation:
 artfight:
 
 skills:
-  - name: Piano
-    value: 5
-  - name: Nonchalance
-    value: 5
-  - name: Perfect Pitch
-    value: 5
-  - name: Cooking 
-    value: 4
-  - name: Penmanship
-    value: 3
-  - name: Tea Brewing
-    value: 3
-  - name: Eye Contact
-    value: 2
-  - name: Honesty
-    value: 1
+  Piano: 5
+  Nonchalance: 5
+  Perfect Pitch: 5
+  Cooking: 4
+  Penmanship: 3
+  Tea Brewing: 3
+  Eye Contact: 2
+  Honesty: 1
 
 relationships:
   ji:

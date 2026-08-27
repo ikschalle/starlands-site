@@ -18,7 +18,7 @@ and ofc delete all the comments they are just here to provide info on usage
 
 --- START OF FRONT MATTER
 layout: character -- DO NOT CHANGE
-uid: (REQUIRED, kebab-string) -- middle and last name with no accents
+uid: (REQUIRED, kebab-string) -- middle and last name with no accents, should match file name
 name: (string) 
 gender: (string)
 pronouns: (string)
@@ -29,14 +29,11 @@ affiliation:
 artfight: (link)
 
 skills:
-  - name: thing2 (string)
-    value: 0-5 (int)
-  - name: thing2 (string)
-    value:(int 0-5)
+  thing1: (int, 0-5)
 
 relationships:
   uid-kebab:
-    description: "\"blahblah\""
+    description: "blahblah"
 --- END OF FRONT MATTER
 
 MARKDOWN, HTML, AND LIQUID HERE -- renders between the character card and skills sections on the article

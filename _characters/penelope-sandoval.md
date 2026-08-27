@@ -9,20 +9,13 @@ affiliation: The Ninth Silence
 artfight:
 
 skills:
-  - name: Cartography
-    value: 3
-  - name: Navigation
-    value: 4
-  - name: Combat
-    value: 3
-  - name: Surviving In The Wild 
-    value: 4
-  - name: Hat-making
-    value: 2
-  - name: Spite
-    value: 5
-  - name: Public Speaking
-    value: 1
+  Cartography: 3
+  Navigation: 4
+  Combat: 3
+  Surviving In The Wild: 4
+  Hat-making: 2
+  Spite: 5
+  Public Speaking: 1
 
 relationships:
 ---

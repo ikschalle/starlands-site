@@ -11,20 +11,13 @@ affiliation:
 artfight: https://artfight.net/character/6406415
 
 skills:
-  - name: Tinkering
-    value: 5
-  - name: Being Cold
-    value: 5
-  - name: Glibness
-    value: 4
-  - name: Marketing 
-    value: 3
-  - name: Open-mindedness
-    value: 2
-  - name: Child Rearing
-    value: 1
-  - name: Philanthropy 
-    value: 0
+  Tinkering: 5
+  Being Cold: 5
+  Glibness: 4
+  Marketing: 3
+  Open-mindedness: 2
+  Child Rearing: 1
+  Philanthropy: 0
 
 relationships:
   ace-nightwing:

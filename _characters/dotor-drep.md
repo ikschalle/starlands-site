@@ -9,20 +9,13 @@ affiliation: Stardoods Consortium
 artfight: https://artfight.net/character/8801867
 
 skills:
-  - name: Weird Behaviours
-    value: 5
-  - name: Theorising
-    value: 5  
-  - name: Suppressing Urges To Push People Off Cliffs
-    value: 2
-  - name: Staring Into Cameras 
-    value: 5
-  - name: Combat
-    value: 4
-  - name: Depending On Others
-    value: 0
-  - name: Stubbornness
-    value: 5
+  Weird Behaviours: 5
+  Theorising: 5
+  Suppressing Urges To Push People Off Cliffs: 2
+  Staring Into Cameras: 5
+  Combat: 4
+  Depending On Others: 0
+  Stubbornness: 5
 
 relationships:
 ---

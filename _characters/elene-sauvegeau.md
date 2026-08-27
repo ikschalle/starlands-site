@@ -12,20 +12,13 @@ affiliation:
 artfight: https://artfight.net/character/6573871
 
 skills:
-  - name: Household Chores
-    value: 5
-  - name: Melee Combat
-    value: 3
-  - name: Ice Magic
-    value: 4
-  - name: Building 
-    value: 4
-  - name: Empathy
-    value: 1
-  - name: Cooking
-    value: 1
-  - name: Handwriting
-    value: 0
+  Household Chores: 5
+  Melee Combat: 3
+  Ice Magic: 4
+  Building: 4 
+  Empathy: 1
+  Cooking: 1
+  Handwriting: 0
 
 relationships:
 ---
