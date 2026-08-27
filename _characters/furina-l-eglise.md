@@ -13,7 +13,7 @@ skills:
     value: 5
   - name: Singing
     value: 5
-  - name: Orating
+  - name: Public
     value: 4
   - name: Writing
     value: 4

@@ -1,7 +1,7 @@
 ---
 layout: character
 uid: penelope-sandoval
-name: Penelope Riobrisa Sandoval
+name: Penélope Ríobrisa Sandoval
 gender: Female
 pronouns: She/Her
 profession: Adventurer, Cartographer
