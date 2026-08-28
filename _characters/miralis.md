@@ -45,11 +45,11 @@ relationships:
 ## About
 > "Count your days, meaniehead! >:)"
 
-Miralis is a Skykid from Auricsand Beaches of the West. It is unknown exactly how old he is, but it is known he is around several centuries old (his birthday is around October time). Despite his age, Miralis has a very childlike soul and is constantly friendly and optimistic. He will always greet friends and associates with as close to a smile as his golden mask can make.<br>
+Miralis is a Skykid from Auricsand Beaches of the west. It is unknown exactly how old he is but it is known he is around several centuries old (his birthday is around October time). Despite his age, Miralis has a very childlike soul and is constantly friendly and optimistic. He will always greet friends and associates with as close to a smile as his golden mask can make.<br>
 
-His mask is made from the Auric sands as all Skykid masks are, though he has made changes to it over the years. The most recent being the addition of 2 blue spots under his eyes to represent his connection to his surrogate father, [Thallium].<br>
+His mask is made from the sands of his beach as all Skykid masks are, though he has made changes to it over the years. The most recent being the addition of 2 blue spots under his eyes to represent his connection to his surrogate father, [Thallium].<br>
 
-Interestingly, he is an accomplished engineer, who, with small help from Thallium, was able to construct Smelter’s Yard. As well as this, he constructed the Overway with assistance from the Stardoods Community. He was also able to reverse engineer the Floaty Blueprints and has even assisted in modernising the Starcore Smeltery.<br>
+Interestingly, he is an accomplished engineer, who, with small help from Thallium, was able to construct Smelter’s Yard. As well as this, he constructed the Overway with assistance from the Stardoods Community. He was also able to reverse engineer his skyship "Floaty", reviving the lost technology of skyships and has even assisted in modernising the Starcore Smeltery.<br>
 
 Being on the smaller side, Miralis is still a "young" Skykid unaware of his previous life. He holds a deep connection to the Skykid [Phio] as she was the First Skykid he ever met. She helped him understand the world again and find his wings.<br>
 

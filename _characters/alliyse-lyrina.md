@@ -4,7 +4,7 @@ uid: alliyse-lyrina
 name: Alliyse Celeste Lyrina
 gender: Female
 pronouns: She/Her
-profession: Writer
+profession: Executioner
 affiliation: 
   wulpin-rail-company: 
 artfight-id:
