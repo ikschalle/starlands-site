@@ -28,7 +28,7 @@ relationships:
         type: Oddly Shaped Father-Figure...
         description: "Father figure kinda forgets we exist so uhm… At least we’re not living on the streets or something! Again!"
 
-    elene-sauvegeau:
+    elene-sauvageau:
         type: Friend
         description: "She said she would find me things to eat, I think!"
 

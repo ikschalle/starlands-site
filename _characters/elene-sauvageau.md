@@ -1,7 +1,7 @@
 ---
 layout: character
-uid: elene-sauvegeau
-name: Elene Sauvegeau
+uid: elene-sauvageau
+name: Elene Sauvageau
 gender: Female
 pronouns: She/Her
 profession: Tax Office Incumbent

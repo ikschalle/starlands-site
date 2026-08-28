@@ -20,4 +20,4 @@ While she is naturally sweet and perhaps even a bit clueless, that is nothing mo
 Although, she has one day vanished, supposedly taking an… ‘extended vacation’ of some kind. No one has seen her in a while, though those closest to her know she is out there somewhere. After all, she sends letters home!<br>
 She does miss the company of her [trusted housekeeper][elene], and the presence of her surprisingly stubborn adoptive son. Goodness, why can’t that little boy just give into his nature..?
 
-[elene]: {{site.baseurl}}/characters/elene-sauvegeau
+[elene]: {{site.baseurl}}/characters/elene-sauvageau

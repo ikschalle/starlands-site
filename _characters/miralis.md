@@ -20,7 +20,7 @@ skills:
   Cooking: 0
 
 relationships:
-    elene-sauvegeau:
+    elene-sauvageau:
         type: Friends
         description: (Visits a lot, eats the grapes off the walls, reads with her, thankful for her)
 

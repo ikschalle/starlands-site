@@ -29,7 +29,7 @@ relationships:
   sebastian-grunhaut:
     type: Frienfrienemy
 
-  elene-sauvegeau:
+  elene-sauvageau:
     type: Close Friend
 
   penelope-sandoval:

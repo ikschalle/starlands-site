@@ -24,7 +24,7 @@ relationships:
     type: Friend?
     description: "In the unlikely event there is a catastrophic and completely unintentional accident which casts the flames of the law upon me, I would want this paragon of a lawyer to extinguish them."
 
-  elene-sauvegeau:
+  elene-sauvageau:
     type: Friend, probably.
     description: "Dearest Elene, We've had our moments of abrasion but I much prefer she to her predecessor. I'd like to avoid slighting her but has become something of habit."
 

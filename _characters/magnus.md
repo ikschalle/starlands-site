@@ -23,7 +23,7 @@ relationships:
         type: '"Close Friend"'
         description: "The moon is beautiful tonight, isn't it?"
 
-    elene-sauvegeau:
+    elene-sauvageau:
         type: Close Friend
 
     sebastian-grunhaut:

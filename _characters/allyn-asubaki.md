@@ -28,7 +28,7 @@ relationships:
         type: '"Father", apparently'
         description: "Why did I agree to let you adopt us? You forget we exist sometimes."
 
-    elene-sauvegeau:
+    elene-sauvageau:
         type: Friend
         description: "She’s really pretty… Quite an accommodating person too."
 
