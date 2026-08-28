@@ -1,4 +1,6 @@
-General notes that might be of interest for dev ig
+# GENERAL DEV NOTES I GUESS
+
+## CSS
 
 all css variables are stored at the top of /assets/css/style.scss
 these are useful for reuse of things like colours for themes (and at current need to be employed more extensively)
