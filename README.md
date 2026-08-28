@@ -1,5 +1,5 @@
-<div align="center>
-	<img src="assets/img/logo_text.png" width="192" height="192", alt="Starlands Logo"
+<div align="center">
+	<img src="assets/img/logo_text.png" width="192" height="192", alt="Starlands Logo">
 	<h1> The Starsite!! </h1>
 	<p> Basically an oc wiki rn lol </p>
 </div>
