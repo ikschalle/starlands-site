@@ -1,5 +1,4 @@
 ---
-uid: phio
 name: Phio
 gender: 
 pronouns: She/Her

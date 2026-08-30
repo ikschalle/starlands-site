@@ -1,5 +1,4 @@
 ---
-uid: su
 name: Su
 gender: Male
 pronouns: He/Him

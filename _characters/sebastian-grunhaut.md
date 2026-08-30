@@ -1,5 +1,4 @@
 ---
-uid: sebastian-grunhaut
 name: Sebastian Grünhaut
 gender: Male
 pronouns: He/They

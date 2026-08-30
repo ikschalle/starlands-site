@@ -1,5 +1,4 @@
 ---
-uid: magnus
 name: Magnus
 gender:  
 pronouns: He/They

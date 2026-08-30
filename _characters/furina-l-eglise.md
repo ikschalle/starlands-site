@@ -1,5 +1,4 @@
 ---
-uid: furina-l-eglise
 name: Furina De L'Eglise
 gender: Female
 pronouns: She/Her

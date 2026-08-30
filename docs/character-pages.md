@@ -20,7 +20,6 @@ and ofc delete all the comments they are just here to provide info on usage
 
 ```Markdown
 --- 
-uid: # (REQUIRED, kebab-string, middle and last name with no accents, should match file name)
 name: # (string) 
 gender: # (string)
 pronouns: # (string)

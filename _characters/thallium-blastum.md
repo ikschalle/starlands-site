@@ -1,5 +1,4 @@
 ---
-uid: thallium-blastum
 name: Thallium Blastum
 gender: 
 pronouns: 

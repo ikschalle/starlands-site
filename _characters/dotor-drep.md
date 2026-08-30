@@ -1,5 +1,4 @@
 ---
-uid: dotor-drep
 name: Dotor Drep "Derp" Depping
 gender: Genderfluid
 pronouns: He/They

@@ -1,5 +1,4 @@
 ---
-uid: alliyse-lyrina
 name: Alliyse Celeste Lyrina
 gender: Female
 pronouns: She/Her

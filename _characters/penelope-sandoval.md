@@ -1,5 +1,4 @@
 ---
-uid: penelope-sandoval
 name: Penélope Ríobrisa Sandoval
 gender: Female
 pronouns: She/Her

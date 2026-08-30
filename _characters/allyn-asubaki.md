@@ -1,5 +1,4 @@
 ---
-uid: allyn-asubaki
 name: Allyn Asubaki
 gender: Female
 pronouns: She/Her

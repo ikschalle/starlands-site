@@ -1,5 +1,4 @@
 ---
-uid: halcyon
 name: Halcyon "Hal"
 gender:
 pronouns: He/They

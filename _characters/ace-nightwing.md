@@ -1,5 +1,4 @@
 ---
-uid: ace-nightwing
 name: Ace Nightwing
 gender: Genderfluid
 pronouns: He/They/She

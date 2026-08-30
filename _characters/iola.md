@@ -1,5 +1,4 @@
 ---
-uid: iola
 name: Iola
 gender:
 pronouns: 

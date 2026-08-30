@@ -1,5 +1,4 @@
 ---
-uid: skiff-town
 name: Skiff Town
 gender: Male
 pronouns: He/They/Fish

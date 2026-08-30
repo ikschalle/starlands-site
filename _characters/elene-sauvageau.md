@@ -1,5 +1,4 @@
 ---
-uid: elene-sauvageau
 name: Elene Sauvageau
 gender: Female
 pronouns: She/Her

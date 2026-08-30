@@ -1,5 +1,4 @@
 ---
-uid: miralis
 name: Miralis
 gender: 
 pronouns: He/Him

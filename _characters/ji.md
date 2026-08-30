@@ -1,5 +1,4 @@
 ---
-uid: ji
 name: Ji
 gender: Male
 pronouns: He/They
