@@ -90,18 +90,6 @@
 
     &:hover {
       border:2px solid midnightblue;
-      animation:leaves .75s ease-in-out infinite alternate;
-    }
-  }
-
-  @keyframes leaves {
-    0% {
-      transform:scale(1.0);
-      background:#ffe390;
-    }
-    100% {
-      transform:scale(1.25);
-      background:#ffd044;
     }
   }
 
