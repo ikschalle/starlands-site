@@ -1,4 +1,5 @@
-{%- assign page_list = site.pages 
+{% assign pages = site.pages | concat: site.characters %}
+{%- assign page_list = pages 
     | where_exp: "item", "item.title != nil"
 -%}
 <script defer>

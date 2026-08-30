@@ -9,7 +9,7 @@
     </div>
 </div> -->
 
-{% if page.tags > 0 %}
+{% if page.tags %}
 <div class="tag-box">
     {%- for page_tag in page.tags -%}
         <span class="tag theme-{{ forloop.index0 | modulo: 3 }}" contentID="{{ page_tag }}">

@@ -11,8 +11,6 @@ kramdown:
   input: GFM
   hard_wrap: true
 
-# Exclude from processing
-
 defaults:
   -
     scope:
@@ -21,7 +19,10 @@ defaults:
     values: 
       layout: "character"
 
+# Exclude from processing
+
 exclude:
+  - docs/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
