@@ -4,8 +4,12 @@ name: Halcyon "Hal"
 gender:
 pronouns: He/They
 profession: Professional Freeloader
-affiliation: Stardoods Consortium
 artfight-id:
+
+affiliation: 
+
+tags:
+  - Stardoods Encampment
 
 skills:
   Freeloading: 4

@@ -4,8 +4,12 @@ name: Su
 gender: Male
 pronouns: He/Him
 profession: Unemployed
-affiliation: 
 artfight-id:
+
+affiliation: 
+
+tags: 
+  - The Church Of Edward
 
 skills:
   Piano: 5

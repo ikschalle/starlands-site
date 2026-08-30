@@ -4,9 +4,13 @@ name: Phio
 gender: 
 pronouns: She/Her
 profession: Airship Mechanic
+artfight-id:
+
 affiliation: 
     stardoods-encampment:
-artfight-id:
+
+tags:
+    - Stardoods Encampment
 
 skills:
   Flight: 5

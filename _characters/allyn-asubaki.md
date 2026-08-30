@@ -4,9 +4,13 @@ name: Allyn Asubaki
 gender: Female
 pronouns: She/Her
 profession: Writer
+artfight-id: 11045935
+
 affiliation: 
   wulpin-rail-company:
-artfight-id: 11045935
+
+tags:
+    - Wulpin Rail Company
 
 skills:
     Writing: 4

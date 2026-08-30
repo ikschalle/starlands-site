@@ -4,9 +4,13 @@ name: Magnus
 gender:  
 pronouns: He/They
 profession: Wanderer, Potion Maker
+artfight-id: 10011814
+
 affiliation: 
     ninth-silence:
-artfight-id: 10011814
+
+tags:
+    - The Ninth Silence
 
 skills:
   Travelling: 5

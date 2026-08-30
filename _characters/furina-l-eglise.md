@@ -3,9 +3,13 @@ uid: furina-l-eglise
 name: Furina De L'Eglise
 gender: Female
 pronouns: She/Her
-profession: Matriarch Of The Church of Edward
-affiliation: 
+profession: Matriarch Of The Church Of Edward
 artfight-id:
+
+affiliation: 
+
+tags:
+  - The Church Of Edward
 
 skills:
   Evangelism: 5

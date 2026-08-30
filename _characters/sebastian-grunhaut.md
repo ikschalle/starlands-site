@@ -4,10 +4,14 @@ name: Sebastian Grünhaut
 gender: Male
 pronouns: He/They
 profession: Railway Engineer
+artfight-id: 6406415
+
 affiliation: 
   wulpin-rail-company: CEO
   stardoods-consortium:
-artfight-id: 6406415
+
+tags:
+  - Wulpin Rail Company
 
 skills:
   Tinkering: 5

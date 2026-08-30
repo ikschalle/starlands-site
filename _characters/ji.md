@@ -4,8 +4,12 @@ name: Ji
 gender: Male
 pronouns: He/They
 profession: Guardian Angel, Altar Server
-affiliation: The Church of Edward
 artfight-id:
+
+affiliation:
+
+tags:
+  - The Church of Edward
 
 skills:
   Faithfulness: 5

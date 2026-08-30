@@ -4,12 +4,17 @@ name: Ace Nightwing
 gender: Genderfluid
 pronouns: He/They/She
 profession: Tax Officer, Lawyer
+artfight-id: 10009519
+
 affiliation: 
   the-ninth-silence: 
   stardoods-consortium:
   stardoods-tax-office: Lawyer 
   wulpin-rail-company: Lawyer
-artfight-id: 10009519
+
+tags:
+  - The Ninth Silence
+  - Stardoods Tax Office
 
 skills:
   Representing You In Court!: 5

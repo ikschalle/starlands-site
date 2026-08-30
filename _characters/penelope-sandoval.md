@@ -4,8 +4,12 @@ name: Penélope Ríobrisa Sandoval
 gender: Female
 pronouns: She/Her
 profession: Adventurer, Cartographer
-affiliation: The Ninth Silence
 artfight-id:
+
+affiliation:
+
+tags:
+  - The Ninth Silence
 
 skills:
   Cartography: 3

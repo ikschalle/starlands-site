@@ -4,8 +4,11 @@ name: Thallium Blastum
 gender: 
 pronouns: 
 profession: 
-affiliation: 
 artfight-id:
+
+affiliation: 
+
+tags:
 
 skills:
 

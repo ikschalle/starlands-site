@@ -4,8 +4,11 @@ name: Skiff Town
 gender: Male
 pronouns: He/They/Fish
 profession: '"Pirate"'
-affiliation: 
 artfight-id: 8744235
+
+affiliation: 
+
+tags:
 
 skills:
   (Un)Luckiness: 5

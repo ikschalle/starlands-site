@@ -4,8 +4,11 @@ name: Venessa Sunset
 gender: 
 pronouns: She/Her
 profession: 
-affiliation:
 artfight-id: 7632230
+
+affiliation:
+
+tags:
 
 relationships:
   sebastian-grunhaut:

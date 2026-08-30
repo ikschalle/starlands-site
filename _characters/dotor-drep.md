@@ -4,8 +4,12 @@ name: Dotor Drep "Derp" Depping
 gender: Genderfluid
 pronouns: He/They
 profession: Historian, Archaeologist
-affiliation: Stardoods Consortium
 artfight-id: 8801867
+
+affiliation: 
+
+tags:
+  - Stardoods Encampment
 
 skills:
   Weird Behaviours: 5

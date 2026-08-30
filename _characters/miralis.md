@@ -4,8 +4,12 @@ name: Miralis
 gender: 
 pronouns: He/Him
 profession: Engineer!
-affiliation: 
 artfight-id: 
+
+affiliation: 
+
+tags:
+    - Stardoods Encampment
 
 skills:
   Flight: 5

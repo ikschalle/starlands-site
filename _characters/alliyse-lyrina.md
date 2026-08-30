@@ -4,9 +4,13 @@ name: Alliyse Celeste Lyrina
 gender: Female
 pronouns: She/Her
 profession: Executioner
+artfight-id:
+
 affiliation: 
   wulpin-rail-company: 
-artfight-id:
+
+tags:
+    - Wulpin Rail Company
 
 skills:
     Harvesting Souls: 5

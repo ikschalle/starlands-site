@@ -4,11 +4,15 @@ name: Elene Sauvageau
 gender: Female
 pronouns: She/Her
 profession: Tax Office Incumbent
+artfight-id: 6573871
+
 affiliation: 
   the-ninth-silence:
   stardoods-consortium:
   stardoods-tax-office:
-artfight-id: 6573871
+
+tags:
+  - The Ninth Silence
 
 skills:
   Household Chores: 5

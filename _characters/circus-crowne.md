@@ -4,8 +4,11 @@ name: Circus Crowne
 gender: Male
 pronouns: He/They
 profession: 'Apothecary'
-affiliation: 
 artfight-id: 6408846
+
+affiliation: 
+
+tags:
 
 skills:
   Clownery: 5
