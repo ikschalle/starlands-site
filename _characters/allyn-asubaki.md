@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: allyn-asubaki
 name: Allyn Asubaki
 gender: Female

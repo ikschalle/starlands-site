@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: sebastian-grunhaut
 name: Sebastian Grünhaut
 gender: Male

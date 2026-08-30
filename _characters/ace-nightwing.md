@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: ace-nightwing
 name: Ace Nightwing
 gender: Genderfluid

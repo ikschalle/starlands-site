@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: elene-sauvageau
 name: Elene Sauvageau
 gender: Female

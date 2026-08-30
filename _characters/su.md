@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: su
 name: Su
 gender: Male

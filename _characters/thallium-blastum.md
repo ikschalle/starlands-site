@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: thallium-blastum
 name: Thallium Blastum
 gender: 

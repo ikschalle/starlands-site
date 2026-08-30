@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: halcyon
 name: Halcyon "Hal"
 gender:

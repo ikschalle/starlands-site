@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: miralis
 name: Miralis
 gender: 

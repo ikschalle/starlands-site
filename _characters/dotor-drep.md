@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: dotor-drep
 name: Dotor Drep "Derp" Depping
 gender: Genderfluid

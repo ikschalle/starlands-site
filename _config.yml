@@ -13,6 +13,14 @@ kramdown:
 
 # Exclude from processing
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "characters"
+    values: 
+      layout: "character"
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

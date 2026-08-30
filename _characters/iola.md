@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: iola
 name: Iola
 gender:

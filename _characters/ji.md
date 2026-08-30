@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: ji
 name: Ji
 gender: Male

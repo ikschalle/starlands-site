@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: circus-crowne
 name: Circus Crowne
 gender: Male

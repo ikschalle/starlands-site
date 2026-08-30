@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: phio
 name: Phio
 gender: 

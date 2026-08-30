@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: penelope-sandoval
 name: Penélope Ríobrisa Sandoval
 gender: Female

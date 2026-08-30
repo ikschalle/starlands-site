@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: skiff-town
 name: Skiff Town
 gender: Male

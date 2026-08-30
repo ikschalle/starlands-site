@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: alliyse-lyrina
 name: Alliyse Celeste Lyrina
 gender: Female

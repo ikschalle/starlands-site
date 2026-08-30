@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: venessa-sunset
 name: Venessa Sunset
 gender: 

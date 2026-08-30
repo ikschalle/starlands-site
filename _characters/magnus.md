@@ -1,5 +1,4 @@
 ---
-layout: character
 uid: magnus
 name: Magnus
 gender:  
