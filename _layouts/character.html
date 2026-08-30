@@ -3,12 +3,12 @@ layout: default
 title: Characters
 ---
   <head>
-    <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png">
+    <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png">
   </head>
 
   <header class="character-box">
     <div class="character-portrait">
-      <img src="{{site.baseurl}}/assets/img/characters/{{page.uid}}.png" alt="{{ page.name }}">
+      <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/portrait.png" alt="{{ page.name }}">
     </div>
 
     <div class="character-info">
@@ -78,17 +78,17 @@ title: Characters
       <h2>Relationships</h2>
 
       {% for target in site.characters %}
-      {% assign relationship = page.relationships[target.uid] %}
+      {% assign relationship = page.relationships[target.slug] %}
 
-      {% if relationship or target.relationships[page.uid] %}
+      {% if relationship or target.relationships[page.slug] %}
         <fieldset>
-                <legend><h3><a href="{{site.baseurl}}/characters/{{target.uid}}">{{ target.name }}</a></h3></legend>
+                <legend><h3><a href="{{site.baseurl}}/characters/{{target.slug}}">{{ target.name }}</a></h3></legend>
                 <div class="relationship-container">
                   
                 {% if relationship %}
                 <!-- self view -->
                 <div class="relationship-content">
-                    <img src="{{site.baseurl}}/assets/img/characters/thumb/{{page.uid}}.png" alt="{{ page.name }}">
+                    <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png" alt="{{ page.name }}">
                     <div class="relationship-text left">
                         {% if relationship.description %}
                           <blockquote> "{{ relationship.description }}" </blockquote> 
@@ -102,18 +102,18 @@ title: Characters
                 {% endif %}
 
                 <!-- other view -->
-                {% if target.relationships[page.uid] %}
+                {% if target.relationships[page.slug] %}
                 <div class="relationship-content">
                   <div class="relationship-text right">
-                        {% if target.relationships[page.uid].description %} 
-                          <blockquote> "{{ target.relationships[page.uid].description }}" </blockquote> 
+                        {% if target.relationships[page.slug].description %} 
+                          <blockquote> "{{ target.relationships[page.slug].description }}" </blockquote> 
                         {% endif %}
 
-                        {% if target.relationships[page.uid].type %}
-                          <p> {{ target.relationships[page.uid].type }} </p> 
+                        {% if target.relationships[page.slug].type %}
+                          <p> {{ target.relationships[page.slug].type }} </p> 
                         {% endif %}
                   </div>
-                  <a href="{{site.baseurl}}/characters/{{target.uid}}"><img src="{{site.baseurl}}/assets/img/characters/thumb/{{target.uid}}.png" alt="{{ target.name }}"></a>
+                  <a href="{{site.baseurl}}/characters/{{target.slug}}"><img src="{{site.baseurl}}/assets/img/characters/{{target.slug}}/thumb.png" alt="{{ target.name }}"></a>
                   </div>
                 {% endif %}
 
