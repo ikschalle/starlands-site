@@ -36,7 +36,7 @@ relationships:
   slug-kebab:
 	  type: # (string)
     description: # (string)
---- END OF FRONT MATTER
+---
 
 MARKDOWN, HTML, AND LIQUID HERE
 ```

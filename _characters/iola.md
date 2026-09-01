@@ -14,7 +14,5 @@ tags:
 skills:
 
 relationships:
-    circus-crowne:
-        description: "???"
 
 ---
