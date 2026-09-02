@@ -7,7 +7,7 @@ layout: default
 
   <header class="character-box">
     <div class="character-portrait">
-      <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/portrait.png" alt="{{ page.name }}">
+      <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/portrait.png" alt="{{ page.title }}">
     </div>
 
     <div class="character-info">
@@ -81,13 +81,13 @@ layout: default
 
       {% if relationship or target.relationships[page.slug] %}
         <fieldset>
-                <legend><h3><a href="{{site.baseurl}}/characters/{{target.slug}}">{{ target.name }}</a></h3></legend>
+                <legend><h3><a href="{{site.baseurl}}/characters/{{target.slug}}">{{ target.title }}</a></h3></legend>
                 <div class="relationship-container">
                   
                 {% if relationship %}
                 <!-- self view -->
                 <div class="relationship-content">
-                    <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png" alt="{{ page.name }}">
+                    <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png" alt="{{ page.title }}">
                     <div class="relationship-text left">
                         {% if relationship.description %}
                           <blockquote> "{{ relationship.description }}" </blockquote> 
@@ -112,7 +112,7 @@ layout: default
                           <p> {{ target.relationships[page.slug].type }} </p> 
                         {% endif %}
                   </div>
-                  <a href="{{site.baseurl}}/characters/{{target.slug}}"><img src="{{site.baseurl}}/assets/img/characters/{{target.slug}}/thumb.png" alt="{{ target.name }}"></a>
+                  <a href="{{site.baseurl}}/characters/{{target.slug}}"><img src="{{site.baseurl}}/assets/img/characters/{{target.slug}}/thumb.png" alt="{{ target.title }}"></a>
                   </div>
                 {% endif %}
 
