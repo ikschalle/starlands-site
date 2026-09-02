@@ -17,8 +17,15 @@
                 {%- if forloop.last -%}
                     {{ page.title | prepend: " " }}
                 {%- else -%}
+                    {% assign name = "" %}
+                    {% assign name_array = sub_tree | split: "-" %}
+
+                    {% for word in name_array %}
+                        {% assign capitalized_word = word | capitalize %}
+                        {% assign name = name | append: capitalized_word | append: " " %}
+                    {% endfor %}
                     <a href="{{ page_link | prepend: site.baseurl }}">
-                        {{ sub_tree | replace: "-", " " | capitalize }}
+                        {{name}}
                     </a>
                     >
                 {%- endif -%}
@@ -28,3 +35,4 @@
         {%- endfor -%}
     </p>
 </div>
+
