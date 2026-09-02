@@ -32,6 +32,10 @@ Thallium left his home of Cornflower Town to set out on a pilgrimage to the sout
 
 Upon his return, he was able to create a new pair of wings for Miralis with the help of [Sebastian Grünhaut]. The Starcore Smeltery was also improved with its design finalised. <br>
 
-[The uprising of the Pillager and Villager Alliance] occurred where Thallium bravely held multiple raiding parties from the Consortium. He had done this long enough to ensure that the airship (Floaty 2.0) was able to evacuate key members of the Consortium. Though he was unable to join them. <br>
+[The uprising of the Pillager and Villager Alliance] occurred where Thallium bravely held multiple raiding parties from the Consortium. He had done this long enough to ensure that the airship (Floaty 2.0) was able to evacuate key members of the Consortium. Though he was unable to join them.
 
-Thallium's fate as of this moment is unknown, with many presuming him to have passed in the uprising. Miralis still seeks to return and save him but many do not believe such an excursion could be made at this time. <br>
+
+Thallium's fate as of this moment is unknown, with many presuming him to have passed in the uprising. Miralis still seeks to return and save him but many do not believe such an excursion could be made at this time.
+
+
+∷⚍ᒲ𝙹⚍∷ᓭ ᓭ!¡ᒷᔑꖌ 𝙹⎓ ᔑ ∷ᒷᓭ╎ᓭℸ ̣ ᔑリᓵᒷ ⎓𝙹∷ᒲ╎リ⊣ ╎リ ℸ ̣ ⍑ᒷ 𝙹ꖎ↸ ꖎᔑリ↸ᓭ 𝙹⎓ ℸ ̣ ⍑ᒷ  ᓵ𝙹リᓭ𝙹∷ℸ ̣ ╎⚍ᒲ, ꖎᒷᔑ↸ ʖ ᔑ ᒲᔑリ ∴⍑𝙹ᓭ ᓵ⍑ᔑ╎リ 𝙹⎓ ⎓ᔑℸ ̣ ᒷ ⍑ᔑᓭ ʖᒷᒷリ ᓭ⍑ᔑℸ ̣ ℸ ̣ ᒷ∷ᒷ↸ ʖ ℸ ̣ ⍑ᒷ ʖ∷𝙹ꖌᒷリ∴╎リ⊣ᒷ↸ ᔑリ⊣ᒷꖎ
