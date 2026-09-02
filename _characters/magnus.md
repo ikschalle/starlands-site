@@ -33,7 +33,7 @@ relationships:
     mag:
         type: Acquaintance
 
-    furina-de-l'eglise:
+    furina-eglise:
         type: Good Friend
 
     st-kanade:
