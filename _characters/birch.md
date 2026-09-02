@@ -1,25 +1,23 @@
 ---
-gender: 
+gender:
 pronouns: He/Him
 profession: Explorer
-artfight-id: 
+artfight-id:
 
 affiliation:
-	southern-expedition-fleet: 
 
 tags:
 
 skills:
-	Stealth: 5
-	Exploration: 5
-	Construction: 4
-	Magic: 3
-	Mental Acuity: 3
-	Sociability: 2
-	Having A Face: 0
+  Stealth: 5
+  Exploration: 5
+  Construction: 4
+  Magic: 3
+  Mental Acuity: 3
+  Sociability: 2
+  Having A Face: 0
 
 relationships:
- 
 ---
 ## About
 
