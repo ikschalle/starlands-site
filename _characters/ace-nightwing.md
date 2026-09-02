@@ -39,7 +39,7 @@ relationships:
   penelope-riobrisa-sandoval:
     type: Friend of A Friend
 
-  furina-de-l'eglise:
+  furina-eglise:
     type: Good Friend
 
   phio:
