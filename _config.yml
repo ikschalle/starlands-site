@@ -4,12 +4,10 @@ title: starlands
 collections:
   characters:
     output: true
-    permalink: /characters/:name/
-
-# Markdown newline activator 
-kramdown:
-  input: GFM
-  hard_wrap: true
+    permalink: /characters/:title/
+  the-songbird:
+    output: true
+    permalink: /the-songbird/:title/
 
 defaults:
   -
@@ -18,8 +16,17 @@ defaults:
       type: "characters"
     values: 
       layout: "character"
+  -
+    scope:
+      path: ""
+      type: "the-songbird"
+    values: 
+      layout: "the-songbird"
 
-# Exclude from processing
+# Markdown newline activator 
+kramdown:
+  input: GFM
+  hard_wrap: true
 
 exclude:
   - docs/
