@@ -1,5 +1,5 @@
 ---
-name: Penélope Ríobrisa Sandoval
+title: Penélope Ríobrisa Sandoval
 gender: Female
 pronouns: She/Her
 profession: Adventurer, Cartographer

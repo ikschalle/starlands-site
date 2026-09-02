@@ -1,5 +1,5 @@
 ---
-name: Alliyse Celeste Lyrina
+title: Alliyse Celeste Lyrina
 gender: Female
 pronouns: She/Her
 profession: Executioner

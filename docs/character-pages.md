@@ -11,13 +11,15 @@ A page is created for each `.md` file in `/_characters/` based on the content wi
 This information may also be used across pages and for other automations (read the liquid template lang docs for details).
 The properties can be in any order as long as theyre formatted correctly but this prescribed order is preferred.
 
+!!File name should be hyphenated and should only have a first and last name for brevity. SHOULD NOT HAVE ACCENTS OR SPECIAL CHARACTERS!!
+
 !!!INDENTATION IS IMPORTANT AND IMPROPER INDENTATION WILL EXPLODE EVERYTHING; YOU MUST ALSO HAVE A SPACE AFTER THE COLON!!!
 
 The following is the Front Matter for all `.md` files located at `/_characters/`
 
 ```Markdown
 --- 
-name: # (string) 
+title: # (string, set only if you want to override the title generated from the file name, e.g. if you have nicknames or middle names or accents) 
 gender: # (string)
 pronouns: # (string)
 profession: # (string)

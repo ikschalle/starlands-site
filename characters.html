@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Characters
-permalink: /characters/
 ---
 
 <div class="character-index">
 {% for character in site.characters %}
     <a class="character-index-box" href="{{ character.url | relative_url }}">
       <img src="{{site.baseurl}}/assets/img/characters/{{character.slug}}/thumb.png" alt="{{character.name}}">
-      <p>{{ character.name }}</p>
+      <p>{{ character.title }}</p>
     </a>
 {% endfor %}
 </div>

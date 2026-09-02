@@ -1,5 +1,4 @@
 ---
-name: Su
 gender: Male
 pronouns: He/Him
 profession: Unemployed
@@ -25,7 +24,7 @@ relationships:
     type: Husband
     description: "He's so... interesting. If anyone were to threaten him at all, their life will happily end in my hands."
 
-  furina-l-eglise:
+  furina-de-l'eglise:
     type: Acquaintance
     description: "...she sure does wear a lot of blue, huh?"
 ---

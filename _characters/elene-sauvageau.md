@@ -1,5 +1,4 @@
 ---
-name: Elene Sauvageau
 gender: Female
 pronouns: She/Her
 profession: Tax Office Incumbent

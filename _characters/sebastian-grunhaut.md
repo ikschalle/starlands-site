@@ -1,5 +1,5 @@
 ---
-name: Sebastian Grünhaut
+title: Sebastian Grünhaut
 gender: Male
 pronouns: He/They
 profession: Railway Engineer

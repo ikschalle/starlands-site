@@ -1,5 +1,4 @@
 ---
-name: Magnus
 gender:  
 pronouns: He/They
 profession: Wanderer, Potion Maker
@@ -34,7 +33,7 @@ relationships:
     mag:
         type: Acquaintance
 
-    furina-l-eglise:
+    furina-de-l'eglise:
         type: Good Friend
 
     st-kanade:
@@ -43,7 +42,7 @@ relationships:
     berta:
         type: Good Friend
 
-    penelope-sandoval:
+    penelope-riobrisa-sandoval:
         type: Good Friend
 
     thallium-blastum:

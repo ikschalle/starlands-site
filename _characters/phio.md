@@ -1,5 +1,4 @@
 ---
-name: Phio
 gender: 
 pronouns: She/Her
 profession: Airship Mechanic

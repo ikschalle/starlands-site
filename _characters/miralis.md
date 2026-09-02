@@ -1,5 +1,4 @@
 ---
-name: Miralis
 gender: 
 pronouns: He/Him
 profession: Engineer!

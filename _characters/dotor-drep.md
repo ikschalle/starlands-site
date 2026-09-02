@@ -1,5 +1,5 @@
 ---
-name: Dotor Drep "Derp" Depping
+title: Dotor Drep "Derp" Depping
 gender: Genderfluid
 pronouns: He/They
 profession: Historian, Archaeologist

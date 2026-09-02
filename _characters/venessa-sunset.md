@@ -1,5 +1,4 @@
 ---
-name: Venessa Sunset
 gender: 
 pronouns: She/Her
 profession: 

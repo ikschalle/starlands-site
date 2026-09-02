@@ -1,5 +1,4 @@
 ---
-name: Allyn Asubaki
 gender: Female
 pronouns: She/Her
 profession: Writer

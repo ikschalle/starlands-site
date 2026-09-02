@@ -1,5 +1,5 @@
 ---
-name: Furina De L'Eglise
+title: Furina De L'Eglise
 gender: Female
 pronouns: She/Her
 profession: Matriarch Of The Church Of Edward

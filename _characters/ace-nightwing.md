@@ -1,5 +1,4 @@
 ---
-name: Ace Nightwing
 gender: Genderfluid
 pronouns: He/They/She
 profession: Tax Officer, Lawyer
@@ -35,10 +34,10 @@ relationships:
   elene-sauvageau:
     type: Close Friend
 
-  penelope-sandoval:
+  penelope-riobrisa-sandoval:
     type: Friend of A Friend
 
-  furina-l-eglise:
+  furina-de-l'eglise:
     type: Good Friend
 
   phio:

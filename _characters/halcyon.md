@@ -1,5 +1,4 @@
 ---
-name: Halcyon "Hal"
 gender:
 pronouns: He/They
 profession: Professional Freeloader

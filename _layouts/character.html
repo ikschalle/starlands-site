@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Characters
 ---
   <head>
     <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png">
@@ -12,15 +11,15 @@ title: Characters
     </div>
 
     <div class="character-info">
-      <h1>{{ page.name }}</h1>
+      <h1>{{ page.title }}</h1>
 
       <dl class="character-detail">
       {% if page.gender %}
-      <dt>Gender</dt> <dd>{{ page.gender }}</dd>
+        <dt>Gender</dt> <dd>{{ page.gender }}</dd>
       {% endif %}
 
       {% if page.pronouns %}
-      <dt>Pronouns</dt> <dd>{{ page.pronouns }}</dd>
+        <dt>Pronouns</dt> <dd>{{ page.pronouns }}</dd>
       {% endif %}
 
       {% if page.profession %}

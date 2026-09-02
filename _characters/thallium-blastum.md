@@ -1,5 +1,4 @@
 ---
-name: Thallium Blastum
 gender: 
 pronouns: 
 profession: 
