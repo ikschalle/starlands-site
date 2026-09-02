@@ -1,7 +1,7 @@
 ---
 gender: 
 pronouns: He/Him
-profession: Engineer!
+profession: Engineer
 artfight-id: 
 
 affiliation: 
@@ -12,13 +12,13 @@ tags:
 skills:
   Flight: 5
   Engineering: 5
-  Health And Safety: 2
   Cuteness: 5
   Swordsmanship: 3
-  Swimming: 0
   Combat:  3
-  𝙹ʖᒷ||╎リ⊣ ⎓ᔑℸ ̣ ᒷ: 0
+  Health And Safety: 2
+  Swimming: 0
   Cooking: 0
+  𝙹ʖᒷ||╎リ⊣ ⎓ᔑℸ ̣ ᒷ: 0
 
 relationships:
     elene-sauvageau:
@@ -31,11 +31,11 @@ relationships:
 
     sebastian-grunhaut:
         type: Friends!
-        description: (Learnt engineering from him, likes to race his trains to see who’s faster)
+        description: (Learnt engineering from him, likes to race his trains to see who's faster)
 
     phio:
         type: Oldest Friend
-        description: (Very Happy to talk to, currently trying to sneak past to go save Thallium, Is certain he can do it.)
+        description: (Very Happy to talk to, currently trying to sneak past to go save Thallium and is certain he can do it.)
 
     venessa-sunset:
         type: Strange Lady

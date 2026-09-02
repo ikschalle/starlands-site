@@ -16,12 +16,14 @@ tags:
 
 skills:
   Representing You In Court!: 5
-  Cooking: 4
   Rizzing Men: 5
-  Rizzing Women: 0
-  Manual Labour: 2
   Literacy: 5
-  Combat:  3
+  Cooking: 4
+  Combat: 3
+  Manual Labour: 2
+  Rizzing Women: 0
+  
+  
 
 relationships:
   magnus:

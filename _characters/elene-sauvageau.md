@@ -14,9 +14,9 @@ tags:
 
 skills:
   Household Chores: 5
-  Melee Combat: 3
   Ice Magic: 4
-  Building: 4 
+  Building: 4
+  Melee Combat: 3
   Empathy: 1
   Cooking: 1
   Handwriting: 0

@@ -29,6 +29,6 @@ relationships:
     description: "A very delightful fellow I think! We've only chatted a few times but I do fear he's out to get me and I have no clue of as to why!"
 ---
 ## About
-> “For that is what Edward would have wanted.”
+> "For that is what Edward would have wanted."
 
-Devoting her faith towards Edward ever since she arrived in the Starlands, Furina oversees all religious activities within the Church of Edward as the most humble Matriarch. She partakes in writing The Edchirdion as well as the local newspaper “The Songbird”. When possible, she hosts seasonal masses to celebrate Edward’s existence and contribution to life in the Starlands.
+Devoting her faith towards Edward ever since she arrived in the Starlands, Furina oversees all religious activities within the Church of Edward as the most humble Matriarch. She partakes in writing The Edchirdion as well as the local newspaper "The Songbird". When possible, she hosts seasonal masses to celebrate Edward's existence and contribution to life in the Starlands.

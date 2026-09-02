@@ -11,12 +11,12 @@ tags:
   - The Ninth Silence
 
 skills:
-  Cartography: 3
-  Navigation: 4
-  Combat: 3
-  Surviving In The Wild: 4
-  Hat-making: 2
   Spite: 5
+  Navigation: 4
+  Surviving In The Wild: 4
+  Cartography: 3
+  Combat: 3
+  Hat-making: 2
   Public Speaking: 1
 
 relationships:

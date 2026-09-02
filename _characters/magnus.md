@@ -15,8 +15,8 @@ skills:
   Potion Making: 5
   Patience: 5
   Tending To Nature: 4
-  Subscribing To One Philosophy: 1
   Cooking: 4
+  Subscribing To One Philosophy: 1
   Talking About His Past: 0
 
 relationships:

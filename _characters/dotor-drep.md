@@ -13,11 +13,12 @@ tags:
 skills:
   Weird Behaviours: 5
   Theorising: 5
-  Suppressing Urges To Push People Off Cliffs: 2
   Staring Into Cameras: 5
-  Combat: 4
-  Depending On Others: 0
   Stubbornness: 5
+  Combat: 4
+  Suppressing Urges To Push People Off Cliffs: 2
+  Depending On Others: 0
+  
 
 relationships:
 ---

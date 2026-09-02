@@ -23,7 +23,7 @@ skills:
 relationships:
     alliyse-lyrina:
         type: Friend
-        description: "Yeah, I don’t know what to say here. She’s just annoying."
+        description: "Yeah, I don't know what to say here. She's just annoying."
     
     sebastian-grunhaut:
         type: '"Father", apparently'
@@ -31,7 +31,7 @@ relationships:
 
     elene-sauvageau:
         type: Friend
-        description: "She’s really pretty… Quite an accommodating person too."
+        description: "She's really pretty… Quite an accommodating person too."
 
     ace-nightwing:
         type: Acquaintance
@@ -39,11 +39,11 @@ relationships:
 
     su:
         type: Acquaintance
-        description: "He likes to greet me every time I come back home, it’s very sweet of him. There are times where I do wish to pet him but he kind of runs away before I get the chance to. How unfortunate."
+        description: "He likes to greet me every time I come back home, it's very sweet of him. There are times where I do wish to pet him but he kind of runs away before I get the chance to. How unfortunate."
 ---
 ## About
-> “Roses sure are delightful flowers, aren’t they?”
+> "Roses sure are delightful flowers, aren't they?"
 
-Wanting to find perfection in life, Allyn arrived in the Starlands with that specific goal, however, somehow, she had wrapped herself into a strange adoption tactic as proposed by her bodymate, [Alliyse]. She doesn’t aspire to do anything else other than write until her heart’s content, which is probably why it is shocking to even catch a glimpse of her. 
+Wanting to find perfection in life, Allyn arrived in the Starlands with that specific goal, however, somehow, she had wrapped herself into a strange adoption tactic as proposed by her bodymate, [Alliyse]. She doesn't aspire to do anything else other than write until her heart's content, which is probably why it is shocking to even catch a glimpse of her. 
 
 [Alliyse]: {{site.baseurl}}/characters/alliyse-lyrina

@@ -12,11 +12,12 @@ tags:
 
 skills:
   Flight: 5
-  Mechanial Skills: 4
   Reading: 5
+  Dancing: 5
+  Mechanial Skills: 4
   Socialness: 2
   Defiance: 0
-  Dancing: 5
+
 
 relationships:
     miralis:
