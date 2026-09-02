@@ -1,5 +1,33 @@
 # ALL ABOUT CHARACTER PAGES!!
 
+### Template
+> You may leave any field blank if you cannot fill it
+
+```Markdown
+--- 
+title: # (string, set only if you want to override the title generated from the file name, e.g. if you have nicknames or middle names or accents) 
+gender: # (string)
+pronouns: # (string)
+profession: # (string)
+artfight-id: # (int)
+
+affiliation: # currently doesn't do anything and might become obsolete depending on future implementation lol
+	(org-name): # (rank/position/title if applicable, string) 
+
+tags:
+  - (Tag Name) # (string)
+
+skills:
+  (Skill Name): # (int, 0-5)
+
+relationships:
+  firstname-lastname:
+	  type: # (string)
+    description: # (string, wrap in quotation marks)
+---
+MARKDOWN, HTML, AND LIQUID HERE (main text of the character page), type `br` wrapped in `<>` for new lines 
+```
+
 This will detail the character system and how to make character pages.
 
 This is a 2 step process: info entry + assigning images.
@@ -14,34 +42,6 @@ The properties can be in any order as long as theyre formatted correctly but thi
 !!File name should be hyphenated and should only have a first and last name for brevity. SHOULD NOT HAVE ACCENTS OR SPECIAL CHARACTERS!!
 
 !!!INDENTATION IS IMPORTANT AND IMPROPER INDENTATION WILL EXPLODE EVERYTHING; YOU MUST ALSO HAVE A SPACE AFTER THE COLON!!!
-
-The following is the Front Matter for all `.md` files located at `/_characters/`
-
-```Markdown
---- 
-title: # (string, set only if you want to override the title generated from the file name, e.g. if you have nicknames or middle names or accents) 
-gender: # (string)
-pronouns: # (string)
-profession: # (string)
-artfight-id: # (int)
-
-affiliation: # currently doesn't do anything and might become obsolete depending on future implementation lol
-	org-slug: # (rank/position/title if applicable, string) 
-
-tags:
-  - thing 1 # (string)
-
-skills:
-  thing1: # (int, 0-5)
-
-relationships:
-  slug-kebab:
-	  type: # (string)
-    description: # (string)
----
-
-MARKDOWN, HTML, AND LIQUID HERE
-```
 
 Refer to other character files if you are stuck, dont worry about making mistakes they can always be amended!
 
