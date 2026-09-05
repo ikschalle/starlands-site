@@ -1,0 +1,18 @@
+---
+layout: default
+title: Gallery
+---
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/justifiedGallery.css" />
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/gallery.js" defer></script>
+
+<div id="gallery">
+    {% assign img_files = site.static_files | where: "gallery_img", true %}
+    {% for img in img_files %}
+        <div>
+            <img alt="{{img.name}}" src="{{img.path}}">
+        </div>
+    {% endfor %}
+</div>

@@ -22,6 +22,11 @@ defaults:
       type: "the-songbird"
     values: 
       layout: "the-songbird"
+  -
+    scope:
+      path: "assets/img/gallery"
+    values: 
+      gallery_img: true
 
 # Markdown newline activator 
 kramdown:
