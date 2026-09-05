@@ -12,7 +12,7 @@ title: Gallery
     {% assign img_files = site.static_files | where: "gallery_img", true %}
     {% for img in img_files %}
         <div>
-            <img alt="{{img.name}}" src="{{img.path}}">
+            <img alt="{{img.name}}" src="{{site.baseurl}}{{img.path}}">
         </div>
     {% endfor %}
 </div>
